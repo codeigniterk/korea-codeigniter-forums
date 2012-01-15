@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="2.0" type="content">
+	<name>로그인스킨</name>
+	<author>홍길</author>
+	<date>2009.05.02</date>
+	<description>누구누구 주려고 만든 스킨입니다.</description>
+	<icon>image_48.png</icon>
+	<width>1000</width>
+	<dependent>login</dependent>
+</skin>
