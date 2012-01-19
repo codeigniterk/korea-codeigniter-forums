@@ -1,4 +1,7 @@
- <?
+<?php
+/**
+ * 커밋 테스트용
+ */
 class Irc extends Controller {
 	function Irc() {
 		parent::Controller();
