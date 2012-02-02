@@ -7,11 +7,14 @@
 			<h2>CodeIgniter정보</h2>
 			<ul>
 				<li><a href="/news/lists/page/1">CI 뉴스 및 다운로드</a></li>
-				<li><a href="/user_guide/" target="_blank">CI 한글매뉴얼(1.7.3)</a></li>
-				<li><a href="/user_guide2.0/" target="_blank">CI 영문매뉴얼(2.0.1)</a></li>
-				<!--li><a href="/sample_list/"><strong>CI 한글매뉴얼 실행예제 모음</strong></a></li-->
-				<li><a href="/user_guide_print/print.php" target="_blank">한글매뉴얼 일괄출력(1.7.3)</a></li>
-				<!--li><a href="#">CI Wiki</a></li-->
+				<li><a href="/user_guide_2.1.0/" target="_blank">CI 한글매뉴얼(2.1.0)<font color='red'>NEW</font></a></li>
+				<li><a href="/user_guide/" target="_blank">CI 한글매뉴얼(2.0.3)<font color='red'>NEW</font></a></li>
+				<li><a href="/user_guide172/" target="_blank">CI 한글매뉴얼(1.7.3)</a></li>
+				<!--<li><a href="/sample_list/"><strong>CI 한글매뉴얼 실행예제 모음</strong></a></li>-->
+				<!--<li><a href="/user_guide2.0/" target="_blank">CI 영문매뉴얼(2.0.1)</a></li>
+
+				<<li><a href="/user_guide_print/print.php" target="_blank">한글매뉴얼 일괄출력(1.7.3)</a></li>
+				<li><a href="#">CI Wiki</a></li>-->
 			</ul>
 
 			<h2>포럼</h2>
@@ -21,6 +24,7 @@
 				<li><a href="/tip/lists/page/1">TIP게시판</a></li>
 				<li><a href="/lecture/lists/page/1">강좌게시판</a></li>
 				<li><a href="/qna/lists/page/1">CI 묻고답하기</a></li>
+				<li><a href="/ci_make/lists/page/1">CI 사이트 소개</a></li>
 			</ul>
 
 			<h2>자료실</h2>
@@ -41,13 +45,15 @@
 				<? } ?>
 			</ul>
 			<? } ?>
-			<h2>포럼 트위터</h2>
-			<ul>
 			<?
 			/*
 			 * 트위터 목록 보여주기
 			 */
 			if(@$twitter){
+			?>
+			<h2>포럼 트위터</h2>
+			<ul>
+			<?php
 				$i=0;
 				foreach($twitter as $tw){
 					if($i == 3) break;
@@ -56,12 +62,16 @@
 				}
 			}
 			?>
-			</ul>
+			</ul><br>
 			<div id="ad">
-				<p>ICMS Banner</p>
+			<?php
+			//배너 종료일
+			$dd = date("Y-m-d");
+			if( $dd < "2012-4-13" ) {
+			?>
+				<a href="/click/index/1" target="_blank"><img src="/images/banner/banner_01.jpg" border="0"></a>
+			<?php } ?>
 			</div>
-
-
 
 		</div>
 
@@ -74,10 +84,10 @@
 	<div class="footer">
 
 		<span class="left">
-			&copy; 2009 <a href="mailto:blumine@gmail.com">CodeIgniter 한글사용자포럼</a>
+			&copy; 2009-2011 <a href="mailto:info@codeigniter-kr.org">CodeIgniter 한국사용자포럼</a> &nbsp;&nbsp;- <a href="mailto:info@codeigniter-kr.org"><b>Contact Us</b></a>
 		</span>
 
-		<span class="right">Sponsor by <a href="http://www.icms.kr/" target="_new">ICMS Inc.<a> &nbsp;&nbsp;<a href="http://templates.arcsin.se/" target="_new">Website template</a> by <a href="http://arcsin.se/" target="_new">Arcsin</a></span>
+		<span class="right"><a href="http://templates.arcsin.se/" target="_new">Website template</a> by <a href="http://arcsin.se/" target="_new">Arcsin</a></span>
 
 		<div class="clearer"></div>
 

@@ -177,7 +177,8 @@ input.searchbutton { background: #575151; border: 0; padding: 0px; color: #fff; 
 .content p {font-family: "gulim",sans-serif;}
 .content0 {
 	text-align: center;
-	width: 800px;
+	width: 100%;
+	background: #FFFFFF;
 }
 
 /* navigation */
@@ -211,11 +212,11 @@ input.searchbutton { background: #575151; border: 0; padding: 0px; color: #fff; 
 }
 .navigation #ad { 
 text-align: center; 
-padding: 20px 0 5px 0; 
+padding: 3px 0 3px 0; 
 width: 205px; 
 border: 3px solid #eee; 
 color: #ccc; 
-height: 30px; 
+height: 300px; 
 margin: 5px 0 0 0px; 
 }
 

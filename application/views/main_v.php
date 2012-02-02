@@ -25,6 +25,11 @@ ul, ol, li, h4, h5{margin:0; padding:0; font-size:12px;}
 	<td width="49%" valign="top"><?=$comment?></td>
 </tr>
 <tr>
+	<td width="49%" valign="top"><?=$ci_make?></td>
+	<td width="2%"></td>
+	<td width="49%" valign="top"><?=$news?></td>
+</tr>
+<tr>
 	<td width="49%" valign="top"><?=$source?></td>
 	<td width="2%"></td>
 	<td width="49%" valign="top"><?=$file?></td>
@@ -36,7 +41,7 @@ ul, ol, li, h4, h5{margin:0; padding:0; font-size:12px;}
 <tr>
 	<td width="49%" valign="top"><?=$ci?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><!--?=$bug_rss?--></td>
+	<td width="49%" valign="top"><?=$su?></td>
 </tr>
 
 <?php } ?>

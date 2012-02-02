@@ -22,6 +22,8 @@ class Main extends Controller {
 		$data['tip'] = $this->main_model->main_list('TIP게시판', 'tip');
 		$data['source'] = $this->main_model->main_list('CI코드 자료실', 'source');
 		$data['file'] = $this->main_model->main_list('일반 자료실', 'file');
+		$data['ci_make'] = $this->main_model->main_list('CI 사이트 소개', 'ci_make');
+		$data['news'] = $this->main_model->main_list('CI 뉴스 및 다운로드', 'news');
 		$data['comment'] = $this->main_model->comment_list();
 		//$data['comment'] = '';
 
@@ -30,7 +32,7 @@ class Main extends Controller {
 		if($this->session->userdata('auth_code') >= '7') {
 			//auth->포럼개발자 이상
 			$data['ci'] = $this->main_model->main_list('포럼개발자', 'ci');
-
+			$data['su'] = $this->main_model->main_list('운영자게시판', 'su');
 			// 버그최신정보 by ci세상
 			//$data['bug_rss'] = $this->main_model->bug_rss_list();
 		}

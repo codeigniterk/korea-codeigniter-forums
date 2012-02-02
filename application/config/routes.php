@@ -55,5 +55,6 @@ $route['free/(:any)'] = "board/index";
 $route['notice/(:any)'] = "board/index";
 $route['lecture/(:any)'] = "board/index";
 $route['html5/(:any)'] = "board/index";
+$route['ci_make/(:any)'] = "board/index";
 /* End of file routes.php */
 /* Location: ./system/application/config/routes.php */
