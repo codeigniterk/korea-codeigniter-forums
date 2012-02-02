@@ -1,0 +1,44 @@
+라이선스
+
+GPL입니다.
+
+
+
+설치법
+
+1. 압축을 풀고 서버에 올립니다.
+
+2. codeigniter_schema.sql 파일을 DB에 dump 합니다.
+
+3. application/config/database.php 파일을 수정합니다. (config.php 파일은 특별히 수정할 것이 없습니다.) 
+
+4. captcha, data 디렉토리 퍼미션을 707로 바꿉니다. (하위까지 모두 변경)
+
+5. .htaccess 파일을 열어 다음 라인을 수정합니다. (사용하실 도메인으로 수정)
+RewriteCond %{HTTP_HOST} ^codeigniter-kr.org [NC] 
+RewriteRule ^(.*)$ http://www.codeigniter-kr.org/$1 [L,R=301] 
+
+6. 접속하시면 됩니다.
+
+
+* users 테이블의 auth_code 항목설명
+ 1:비회원, 3:일반회원, 7:포럼개발자, 15:운영자 입니다. 
+ 
+* board_list의 permission 항목설명 
+ 순서는 리스트보기|본문보기|댓글쓰기|본문쓰기 입니다.
+ 예) 1|1|3|3 -> 비회원 리스트보기 | 비회원 본문보기 | 일반회원 댓글쓰기 | 일반회원 본문쓰기
+ 
+* 게시판 추가시 application/config/routes.php 파일을 수정하셔야 합니다.
+게시판의 주소를 프로그램에 매칭시키는 역할을 합니다. 게시판 추가를 하고 여기에 선언하지 않으면
+사용할 수 없습니다.
+
+$route['news/(:any)'] = "board/index";
+$route['su/(:any)'] = "board/index";
+$route['ci/(:any)'] = "board/index";
+$route['file/(:any)'] = "board/index";
+$route['source/(:any)'] = "board/index";
+$route['tip/(:any)'] = "board/index";
+$route['qna/(:any)'] = "board/index";
+$route['free/(:any)'] = "board/index";
+$route['notice/(:any)'] = "board/index";
+$route['lecture/(:any)'] = "board/index";
