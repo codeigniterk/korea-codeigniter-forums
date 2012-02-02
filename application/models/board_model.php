@@ -63,6 +63,49 @@ class Board_model extends Model {
 		//print_r($data);
 		$this->db->insert($this->table, $data);
 		$last_id = $this->db->insert_id();
+
+		//운영자 게시판 내용 메일 발송
+		if(MENU_ID == '10')
+		{
+			$this->load->library('email');
+			$config['mailtype'] = 'html';
+			$config['priority'] = '1';
+			$this->email->initialize($config);
+
+			$this->email->from('info@codeigniter-kr.org', 'Codeigniter한국사용자포럼');
+			$this->email->to('info@codeigniter-kr.org');
+
+			$this->email->subject("[Codeigniter포럼 운영자게시판] ".$post['subject']);
+			$e_content =
+			"작성자 : ".$this->session->userdata('nickname')."<br>작성일 : ".$this_date." <br><BR>".$post['contents']."<BR><BR><a href='http://www.codeigniter-kr.org/su/view/".$last_id."' target='_blank'>게시글로 이동</a>";
+			$this->email->message($e_content);
+
+			$this->email->send();
+		}
+
+		//운영자 게시판이외의 내용 메일 발송
+		if(MENU_ID != '10')
+		{
+			$this->load->library('email');
+			$config['mailtype'] = 'html';
+			$config['priority'] = '1';
+			$this->email->initialize($config);
+
+			$this->email->from('info@codeigniter-kr.org', 'Codeigniter한국사용자포럼');
+			$this->email->to('blumine@codeigniter-kr.org');
+
+			$this->email->subject("[Codeigniter포럼 ".MENU_BOARD_NAME."] ".$post['subject']);
+
+			$str_len = strlen(MENU_BOARD_NAME_EN);
+			$table = substr(MENU_BOARD_NAME_EN, 6, $str_len);
+
+			$e_content =
+			"작성자 : ".$this->session->userdata('nickname')."<br>작성일 : ".$this_date." <br><BR>".$post['contents']."<BR><BR><a href='http://www.codeigniter-kr.org/".$table."/view/".$last_id."' target='_blank'>게시글로 이동</a>";
+			$this->email->message($e_content);
+
+			$this->email->send();
+		}
+
 		//태그처리
        	if ($post['tags']) {
        		$tag_arr = explode(",", $post['tags']);
@@ -288,6 +331,9 @@ class Board_model extends Model {
 		//$this->db->select($this->table.'.*, users.nickname, users.username');
 		$this->db->select($this->table.'.*');
 		//$this->db->join('users', 'users.userid='.$this->table.'.user_id', 'left');
+		if ($mode != 'edit') {
+			$this->db->where('original_no', '0');
+		}
 		$query = $this->db->get_where($this->table, array('no' => $no, 'is_delete' => 'N'));
 
         return $query->row_array();
@@ -353,41 +399,41 @@ union	(Select MAX(no) as nn from `".$this->table."`  where no < '".$no."' and is
 	function board_move($scBoard, $tgBoard, $scNo)
 	{
 		// 본문 게시물 이동용 SQL
-		$sql =	"INSERT INTO {$tgBoard} ( " . 
-			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " . 
-			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " . 
-			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " . 
-			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " . 
-			"`ip`, `is_delete`,`password`) " . 
-			"select  " . 
-			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " . 
-			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " . 
-			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " . 
-			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " . 
-			"`ip`, `is_delete`, `password`  " . 
-			"from {$scBoard}  " . 
+		$sql =	"INSERT INTO {$tgBoard} ( " .
+			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " .
+			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " .
+			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " .
+			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " .
+			"`ip`, `is_delete`,`password`) " .
+			"select  " .
+			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " .
+			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " .
+			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " .
+			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " .
+			"`ip`, `is_delete`, `password`  " .
+			"from {$scBoard}  " .
 			"where `no` = '{$scNo}' ";
 		$this->db->query($sql);
 		$tgNo = $this->db->insert_id();
-		
+
 		// 본문 게시물 이동용 SQL
-		$sql = "INSERT INTO {$tgBoard} ( `original_no`,  " . 
-			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " . 
-			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " . 
-			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " . 
-			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " . 
-			"`ip`, `is_delete`,`password`) " . 
-			"select '{$tgNo}',  " . 
-			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " . 
-			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " . 
-			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " . 
-			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " . 
-			"`ip`, `is_delete`, `password`  " . 
-			"from {$scBoard}  " . 
+		$sql = "INSERT INTO {$tgBoard} ( `original_no`,  " .
+			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " .
+			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " .
+			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " .
+			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " .
+			"`ip`, `is_delete`,`password`) " .
+			"select '{$tgNo}',  " .
+			"`division`, `module_no`, `user_no`, `user_id`, `user_name`, " .
+			"`reg_date`, `modify_date`, `is_notice`, `is_secret`, `subject`, " .
+			"`general_setting`, `contents`, `files_count`, `download_count`, `scrap_count`, " .
+			"`hit`, `trackback_count`, `reply_count`, `voted_count`, `blamed_count`, " .
+			"`ip`, `is_delete`, `password`  " .
+			"from {$scBoard}  " .
 			"where `original_no` = '{$scNo}' ";
-		
+
 		$this->db->query($sql);
-		
+
 		// 본문 게시물 삭제
 		$this->delete_post($scNo);
 	}
