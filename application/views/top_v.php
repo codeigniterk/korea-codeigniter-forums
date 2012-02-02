@@ -63,8 +63,11 @@ function top_search_enter(form) {
     if(keycode == 13) $("#mainsearch_btn").click();
 }
 </script>
-
+<?php if(@$this->uri->segment(2) == 'view') { ?>
+<title><?php echo $views['subject'];?> - CodeIgniter 한국사용자포럼</title>
+<? } else { ?>
 <title>CodeIgniter 한국사용자포럼</title>
+<? } ?>
 </head>
 
 <body>
