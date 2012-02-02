@@ -72,8 +72,8 @@ class Board_model extends Model {
 			$config['priority'] = '1';
 			$this->email->initialize($config);
 
-			$this->email->from('info@codeigniter-kr.org', 'Codeigniter한국사용자포럼');
-			$this->email->to('info@codeigniter-kr.org');
+			$this->email->from('info@cikorea.net', 'Codeigniter한국사용자포럼');
+			$this->email->to('info@cikorea.net');
 
 			$this->email->subject("[Codeigniter포럼 운영자게시판] ".$post['subject']);
 			$e_content =
@@ -91,8 +91,8 @@ class Board_model extends Model {
 			$config['priority'] = '1';
 			$this->email->initialize($config);
 
-			$this->email->from('info@codeigniter-kr.org', 'Codeigniter한국사용자포럼');
-			$this->email->to('blumine@codeigniter-kr.org');
+			$this->email->from('info@cikorea.net', 'Codeigniter한국사용자포럼');
+			$this->email->to('info@cikorea.net');
 
 			$this->email->subject("[Codeigniter포럼 ".MENU_BOARD_NAME."] ".$post['subject']);
 
