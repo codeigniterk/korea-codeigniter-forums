@@ -250,7 +250,7 @@ class Board_model extends Model {
 	{
 		$where = "";
 		$this->db->select($table.'.user_name, '.$table.'.subject, '.$table.'.no,'.$table.'.hit, '.$table.'.voted_count,  '.$table.'.contents, '.$table.'.reg_date, '.$table.'.reply_count, files.file_name');
-		$this->db->order_by($table.'.no', 'desc');
+		$this->db->order_by($table.'.red_date', 'desc');
 		$this->db->group_by($table.'.no');
 		$this->db->limit($rp, $page);
 		if ($post) {
