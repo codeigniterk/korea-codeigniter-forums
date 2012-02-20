@@ -24,6 +24,8 @@ class Main extends Controller {
 		$data['file'] = $this->main_model->main_list('일반 자료실', 'file');
 		$data['ci_make'] = $this->main_model->main_list('CI 사이트 소개', 'ci_make');
 		$data['news'] = $this->main_model->main_list('CI 뉴스 및 다운로드', 'news');
+		$data['etc_qna'] = $this->main_model->main_list('CI외 질문게시판', 'etc_qna');
+		$data['ad'] = $this->main_model->main_list('광고, 홍보 게시판', 'ad');
 		$data['comment'] = $this->main_model->comment_list();
 		//$data['comment'] = '';
 

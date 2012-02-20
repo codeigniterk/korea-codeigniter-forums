@@ -23,8 +23,10 @@
 				<li><a href="/free/lists/page/1">자유게시판</a></li>
 				<li><a href="/tip/lists/page/1">TIP게시판</a></li>
 				<li><a href="/lecture/lists/page/1">강좌게시판</a></li>
-				<li><a href="/qna/lists/page/1">CI 묻고답하기</a></li>
+				<li><a href="/qna/lists/page/1"><b>CI 묻고답하기</b></a></li>
+				<li><a href="/etc_qna/lists/page/1">CI외 질문게시판</a></li>
 				<li><a href="/ci_make/lists/page/1">CI 사이트 소개</a></li>
+				<li><a href="/ad/lists/page/1">광고, 홍보 게시판</a></li>
 			</ul>
 
 			<h2>자료실</h2>

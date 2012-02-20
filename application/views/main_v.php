@@ -12,12 +12,17 @@ ul, ol, li, h4, h5{margin:0; padding:0; font-size:12px;}
 <tr>
 	<td width="49%" valign="top"><?=$qna?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$tip?></td>
+	<td width="49%" valign="top"><?=$etc_qna?></td>
 </tr>
 <tr>
 	<td width="49%" valign="top"><?=$lecture?></td>
 	<td width="2%"></td>
+	<td width="49%" valign="top"><?=$tip?></td>
+</tr>
+<tr>
 	<td width="49%" valign="top"><?=$free?></td>
+	<td width="2%"></td>
+	<td width="49%" valign="top"><?=$news?></td>
 </tr>
 <tr>
 	<td width="49%" valign="top"><?=$notice?></td>
@@ -27,7 +32,7 @@ ul, ol, li, h4, h5{margin:0; padding:0; font-size:12px;}
 <tr>
 	<td width="49%" valign="top"><?=$ci_make?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$news?></td>
+	<td width="49%" valign="top"><?=$ad?></td>
 </tr>
 <tr>
 	<td width="49%" valign="top"><?=$source?></td>
