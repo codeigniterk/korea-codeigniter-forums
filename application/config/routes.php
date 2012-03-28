@@ -52,6 +52,7 @@ $route['source/(:any)'] = "board/index";
 $route['tip/(:any)'] = "board/index";
 $route['qna/(:any)'] = "board/index";
 $route['etc_qna/(:any)'] = "board/index";
+$route['job/(:any)'] = "board/index";
 $route['ad/(:any)'] = "board/index";
 $route['free/(:any)'] = "board/index";
 $route['notice/(:any)'] = "board/index";
