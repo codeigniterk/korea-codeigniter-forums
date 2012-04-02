@@ -68,6 +68,8 @@ common->strcut_utf8(strip_tags($list['subject']), 21).' </a>';
 
 	/**
 	* 코멘트 최근리스트 표시 by emc
+	*
+	* 2012.04.02 자유게시판 이하 게시판들 추가 by 웅파
    	*
    	* @access private : 접근형태
     * @return String $return_val : 문자열
@@ -87,6 +89,8 @@ common->strcut_utf8(strip_tags($list['subject']), 21).' </a>';
 		$sql .= "(SELECT '자유게시판'    as 'table', 'free' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_free  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) UNION ";
 		$sql .= "(SELECT 'CI외 질문게시판'    as 'table', 'etc_qna' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_etc_qna  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) UNION ";
 		$sql .= "(SELECT 'CI 사이트 소개'    as 'table', 'ci_make' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_ci_make  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
+		$sql .= "(SELECT '구인구직'    as 'table', 'job' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_job  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
+		$sql .= "(SELECT '광고 홍보'    as 'table', 'ad' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_ad  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
 		if($this->session->userdata('auth_code') >= '7') {
 			$sql .= " UNION (SELECT '개발자게시판'    as 'table', 'ci' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_ci  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
 		}
@@ -143,6 +147,8 @@ common->strcut_utf8(strip_tags($list['contents']), 21).' </a>';
 	/**
 	* 코멘트 최근리스트 표시 by 웅파
    	*
+	* 2012.04.02 자유게시판 이하 게시판들 추가 by 웅파
+	*
    	* @access private : 접근형태
     * @return String $return_val : 문자열
     */
@@ -157,6 +163,10 @@ common->strcut_utf8(strip_tags($list['contents']), 21).' </a>';
 		$sql .= "(SELECT 'CI 뉴스'       as 'table', 'news' as 'tbn', no, original_no, contents, user_name, user_id, reg_date, subject, hit, voted_count, reply_count FROM board_news  WHERE  is_delete = 'N' and original_no != '0' ) UNION ";
 		$sql .= "(SELECT '공지사항'    as 'table', 'notice' as 'tbn', no, original_no, contents, user_name, user_id, reg_date, subject, hit, voted_count, reply_count FROM board_notice  WHERE  is_delete = 'N' and original_no != '0' ) UNION ";
 		$sql .= "(SELECT '자유게시판'    as 'table', 'free' as 'tbn', no, original_no, contents, user_name, user_id, reg_date, subject, hit, voted_count, reply_count FROM board_free  WHERE  is_delete = 'N' and original_no != '0' ) ";
+		$sql .= "(SELECT 'CI외 질문게시판'    as 'table', 'etc_qna' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_etc_qna  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) UNION ";
+		$sql .= "(SELECT 'CI 사이트 소개'    as 'table', 'ci_make' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_ci_make  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
+		$sql .= "(SELECT '구인구직'    as 'table', 'job' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_job  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
+		$sql .= "(SELECT '광고 홍보'    as 'table', 'ad' as 'tbn', no, original_no, contents, user_name, user_id, reg_date FROM board_ad  WHERE  is_delete = 'N' and original_no != '0' order by no desc limit 7 ) ";
 		if($this->session->userdata('auth_code') >= '7') {
 			$sql .= " UNION (SELECT '개발자게시판'    as 'table', 'ci' as 'tbn', no, original_no, contents, user_name, user_id, reg_date, subject, hit, voted_count, reply_count FROM board_ci  WHERE  is_delete = 'N' and original_no != '0' ) ";
 		}

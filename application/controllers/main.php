@@ -25,7 +25,9 @@ class Main extends Controller {
 		$data['ci_make'] = $this->main_model->main_list('CI 사이트 소개', 'ci_make');
 		$data['news'] = $this->main_model->main_list('CI 뉴스 및 다운로드', 'news');
 		$data['etc_qna'] = $this->main_model->main_list('CI외 질문게시판', 'etc_qna');
-		$data['ad'] = $this->main_model->main_list('광고, 홍보 게시판', 'ad');
+		//$data['ad'] = $this->main_model->main_list('광고, 홍보 게시판', 'ad');
+		//메인 교체 광고->구인구직 by 웅파 2012.04.02
+		$data['job'] = $this->main_model->main_list('구인, 구직 게시판', 'job');
 		$data['comment'] = $this->main_model->comment_list();
 		//$data['comment'] = '';
 

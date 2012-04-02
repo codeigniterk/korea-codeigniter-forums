@@ -32,7 +32,7 @@ ul, ol, li, h4, h5{margin:0; padding:0; font-size:12px;}
 <tr>
 	<td width="49%" valign="top"><?=$ci_make?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$ad?></td>
+	<td width="49%" valign="top"><?=$job?></td>
 </tr>
 <tr>
 	<td width="49%" valign="top"><?=$source?></td>
