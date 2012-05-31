@@ -7,10 +7,10 @@
 			<h2>CodeIgniter정보</h2>
 			<ul>
 				<li><a href="/news/lists/page/1">CI 뉴스 및 다운로드</a></li>
-				<li><a href="/user_guide_2.1.0/" target="_blank">CI 한글매뉴얼(2.1.0)<font color='red'>NEW</font></a></li>
-				<li><a href="/user_guide/" target="_blank">CI 한글매뉴얼(2.0.3)<font color='red'>NEW</font></a></li>
+				<li><a href="/user_guide_2.1.0/" target="_blank">CI 한글매뉴얼(2.1.0)&nbsp;<font color='red'>NEW</font></a></li>
+				<li><a href="/user_guide/" target="_blank">CI 한글매뉴얼(2.0.3)&nbsp;<font color='red'>NEW</font></a></li>
 				<li><a href="/user_guide172/" target="_blank">CI 한글매뉴얼(1.7.3)</a></li>
-				<li><a href="http://sample.cikorea.net/" target="_blank">CI 실행예제 모음<font color='red'>NEW</font></a></li>
+				<li><a href="http://sample.cikorea.net/" target="_blank">CI 실행예제 모음&nbsp;<font color='red'>NEW</font></a></li>
 				<!--<li><a href="/user_guide2.0/" target="_blank">CI 영문매뉴얼(2.0.1)</a></li>
 
 				<<li><a href="/user_guide_print/print.php" target="_blank">한글매뉴얼 일괄출력(1.7.3)</a></li>
