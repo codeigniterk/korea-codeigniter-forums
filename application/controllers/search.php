@@ -1,17 +1,17 @@
 <?php
 
-class Search extends Controller {
+class Search extends CI_Controller {
 
-	function Search()
+	function __construct()
 	{
-		parent::Controller();
-		if($this->session->userdata('userid')=='blumine') $this->output->enable_profiler(TRUE);
-		$this->load->model('search_model');
-		$this->load->model('main_model');
+		parent::__construct();
+		$this->load->model('search_m');
+		$this->load->model('main_m');
 		$this->seg_exp = $this->common->segment_explode($this->uri->uri_string());
 	}
 
 	//통합검색 기능추가 by emc (2009/08/19)
+	//세그먼트 정리 및 리맵 추가 by 웅파 (2013/03/05)
 	function index()
 	{
 		if(in_array("q", $this->seg_exp)) {
@@ -30,9 +30,7 @@ class Search extends Controller {
     	}
 
 		$data['search_total'] = $total = $this->search_model->search_total($post);
-		//$data['search_total'] = $this->search_model->search_total($post);
 
-		//$data['page_account']=$page = 1
 
 		if($this->uri->segment(4) == 'page')
 		{
@@ -75,17 +73,12 @@ class Search extends Controller {
 
 		}
 
-
-		//if($this->session->userdata('userid')=='blumine') var_dump($this->url_seg);
-
 		$urls = implode('/', $this->url_seg);
 
 		$data['pagination_links'] = $this->common->pagination($urls."/page", paging($page,$rp,$total,$limit));
 		$data['search_list'] = $this->search_model->search_list($start, $rp, $post);
 
-		$this->load->view('top_v');
-		$this->load->view('board/search', $data);
-		$this->load->view('bottom_v');
+		$this->load->view('board/search_v', $data);
 	}
 
 	//당일 하루치 덧글 보기
@@ -94,9 +87,8 @@ class Search extends Controller {
 	{
 		$data['search_list'] = $this->main_model->comment_list_full();
 		$data['page_account']= 1;
-		$this->load->view('top_v');
+
 		$this->load->view('board/recent_comment', $data);
-		$this->load->view('bottom_v');
 	}
 
 	function my_list()
@@ -131,8 +123,6 @@ class Search extends Controller {
 		$data['pagination_links'] = $this->common->pagination($urls."/page", paging($page,$rp,$total,$limit));
 		$data['my_list'] = $this->search_model->my_list($start, $rp, $this->session->userdata('userid'), 'REPLY1');
 
-		$this->load->view('top_v');
 		$this->load->view('board/my_list', $data);
-		$this->load->view('bottom_v');
 	}
 }

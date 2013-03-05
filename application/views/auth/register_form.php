@@ -50,6 +50,7 @@ $captcha = array(
 	'maxlength'	=> 8,
 );
 ?>
+<h2>회원 가입</h2>
 <?php echo form_open($this->uri->uri_string()); ?>
 <table>
 	<tr>
@@ -106,7 +107,7 @@ $captcha = array(
 	</tr>
 	<?php } else { ?>
 	<tr>
-		<td colspan="3">
+		<td colspan="3"><br>
 			<p>이미지에 보이는 코드를 입력하세요.(숫자)</p>
 			<?php echo $captcha_html; ?>
 		</td>

@@ -9,22 +9,8 @@
 |	http://codeigniter.com/user_guide/general/hooks.html
 |
 */
-/*
-$hook['post_controller'][] = array(
-               'function' => 'doBeginLoading',
-               'filename' => 'preload.php',
-               'filepath' => 'hooks'
-);
-$hook['post_system'][] = array(
-               'function' => 'doEndLoading',
-               'filename' => 'preload.php',
-               'filepath' => 'hooks'
-);
-*/
-$hook['pre_system'][] = array(
-               'function' => 'ie6_ban',
-               'filename' => 'ie6_banned.php',
-               'filepath' => 'hooks'
-);
+
+
+
 /* End of file hooks.php */
-/* Location: ./system/application/config/hooks.php */
+/* Location: ./application/config/hooks.php */

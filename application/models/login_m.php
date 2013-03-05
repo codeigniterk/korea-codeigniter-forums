@@ -1,14 +1,13 @@
 <?php
-class Login_m extends Model {
+class Login_m extends CI_Model {
 
     var $query   = '';
 	var $arr   = '';
 	var $row   = array();
 
-    function Login_m()
+    function __construct()
     {
-        // Call the Model constructor
-        parent::Model();
+        parent::__construct();
     }
 
     function id_check($id) //회원가입시 기존 아이디 유무 체크

@@ -8,7 +8,7 @@
 |--------------------------------------------------------------------------
 */
 $config['website_name'] = 'CodeIgniter 한국사용자포럼';
-$config['webmaster_email'] = 'webmaster@codeigniter-kr.org';
+$config['webmaster_email'] = 'info@cikorea.net';
 
 /*
 |--------------------------------------------------------------------------

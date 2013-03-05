@@ -10,7 +10,7 @@
  * @package	Tank_auth
  * @author	Tank
  */
-class Users extends Model
+class Users extends CI_Model
 {
 	const TABLE			= 'users';			// user accounts
 	const TABLE_PROFILE	= 'user_profiles';	// user profiles

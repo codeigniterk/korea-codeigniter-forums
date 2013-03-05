@@ -9,7 +9,7 @@
  * @package	Tank_auth
  * @author	Tank
  */
-class Login_attempts extends Model
+class Login_attempts extends CI_Model
 {
 	const TABLE = 'login_attempts';
 
@@ -57,7 +57,7 @@ class Login_attempts extends Model
 	function clear_attempts($ip_address, $login, $expire_period = 86400)
 	{
 		$this->db->where(array('ip_address' => $ip_address, 'login' => $login));
-		
+
 		// Purge obsolete login attempts
 		$this->db->or_where('UNIX_TIMESTAMP(time) <', time() - $expire_period);
 

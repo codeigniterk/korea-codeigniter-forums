@@ -1,20 +1,20 @@
-<?php if($this->uri->segment('2')!='write' && $this->uri->segment('2')!='edit') { 	?>
-
+<?php
+if($this->uri->segment('2') != 'write' && $this->uri->segment('2') != 'edit')
+{
+?>
 		</div>
 
 		<div class="navigation">
-
 			<h2>CodeIgniter정보</h2>
 			<ul>
 				<li><a href="/news/lists/page/1">CI 뉴스 및 다운로드</a></li>
-				<li><a href="/user_guide_2.1.0/" target="_blank">CI 한글매뉴얼(2.1.0)&nbsp;<font color='red'>NEW</font></a></li>
-				<li><a href="/user_guide/" target="_blank">CI 한글매뉴얼(2.0.3)&nbsp;<font color='red'>NEW</font></a></li>
+				<li><a href="/user_guide_2.1.0/" target="_blank">CI 한글매뉴얼(2.1.0)</a></li>
+				<li><a href="/user_guide/" target="_blank">CI 한글매뉴얼(2.0.3)</a></li>
 				<li><a href="/user_guide172/" target="_blank">CI 한글매뉴얼(1.7.3)</a></li>
-				<li><a href="http://sample.cikorea.net/" target="_blank">CI 실행예제 모음&nbsp;<font color='red'>NEW</font></a></li>
-				<!--<li><a href="/user_guide2.0/" target="_blank">CI 영문매뉴얼(2.0.1)</a></li>
-
-				<<li><a href="/user_guide_print/print.php" target="_blank">한글매뉴얼 일괄출력(1.7.3)</a></li>
-				<li><a href="#">CI Wiki</a></li>-->
+				<li><a href="http://sample.cikorea.net/" target="_blank">CI 실행예제 모음</a></li>
+				<!--
+				<li><a href="/user_guide_print/print.php" target="_blank">한글매뉴얼 일괄출력(1.7.3)</a></li>
+				-->
 			</ul>
 
 			<h2>포럼</h2>
@@ -38,34 +38,27 @@
 				<li><a href="/source/view/401/page/1/">마냐님 공개보드 다운</a></li>
 			</ul>
 
-			<? if($this->session->userdata('auth_code') >= '7') {?>
+<?php
+if($this->session->userdata('auth_code') >= '7')
+{
+?>
 			<h2>개발자 전용</h2>
 			<ul>
 				<li><a href="/ci/lists/page/1">포럼개발자</a></li>
 				<li><a href="http://codeigniter-kr.org/trac" target="_blank">TRAC바로가기</a></li>
-				<? if($this->session->userdata('auth_code') >= '15') {?>
+<?php
+	if($this->session->userdata('auth_code') >= '15')
+	{
+?>
 				<li><a href="/su/lists/page/1">운영자게시판</a></li>
-				<? } ?>
+<?php
+	}
+?>
 			</ul>
-			<? } ?>
-			<?
-			/*
-			 * 트위터 목록 보여주기
-			 */
-			if(@$twitter){
-			?>
-			<h2>포럼 트위터</h2>
-			<ul>
-			<?php
-				$i=0;
-				foreach($twitter as $tw){
-					if($i == 3) break;
-					echo "<li><a href='http://twitter.com/codeigniterK' target='_blank'>".$tw->text."</a></li>";
-					$i++;
-				}
-			}
-			?>
-			</ul><br>
+<?php
+}
+?>
+			<br>
 			<div id="ad">
 			<?php
 			//배너 종료일
@@ -81,13 +74,19 @@
 		<div class="clearer">&nbsp;</div>
 
 	</div>
-<?php } else {?>
+<?php
+}
+else
+{
+?>
 	</div>
-	<?php } ?>
+<?php
+}
+?>
 	<div class="footer">
 
 		<span class="left">
-			&copy; 2009-2011 <a href="mailto:info@codeigniter-kr.org">CodeIgniter 한국사용자포럼</a> &nbsp;&nbsp;- <a href="mailto:info@codeigniter-kr.org"><b>Contact Us</b></a>
+			&copy; 2009-2013 <a href="mailto:info@cikorea.net">CodeIgniter 한국사용자포럼</a> &nbsp;&nbsp;- <a href="mailto:info@cikorea.net"><b>Contact Us</b></a>
 		</span>
 
 		<span class="right"><a href="http://templates.arcsin.se/" target="_new">Website template</a> by <a href="http://arcsin.se/" target="_new">Arcsin</a></span>

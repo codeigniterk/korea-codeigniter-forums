@@ -632,6 +632,22 @@ class Tank_auth
 					$this->ci->config->item('login_attempt_expire', 'tank_auth'));
 		}
 	}
+
+	/**
+	 * 로그인 되어있지 않으면 로그인 페이지로
+	 * @param none
+	 * @return void
+	 */
+	function is_login()
+	{
+		if( ! $this->is_logged_in())
+		{
+			$rpath = str_replace("index.php/", "", $this->ci->input->server('PHP_SELF'));
+			$rpath_encode = strtr(base64_encode(addslashes(gzcompress(serialize($rpath), 9))), '+/=', '-_.');
+			echo ('<script>window.location.replace("/auth/login/'.$rpath_encode.'")</script>');
+			exit;
+		}
+	}
 }
 
 /* End of file Tank_auth.php */

@@ -10,44 +10,47 @@ ul, ol, li, h4, h5{margin:0; padding:0; font-size:12px;}
 </style>
 <table border="0" width="640">
 <tr>
-	<td width="49%" valign="top"><?=$qna?></td>
+	<td width="49%" valign="top"><?php echo $qna?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$etc_qna?></td>
+	<td width="49%" valign="top"><?php echo $etc_qna?></td>
 </tr>
 <tr>
-	<td width="49%" valign="top"><?=$lecture?></td>
+	<td width="49%" valign="top"><?php echo $lecture?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$tip?></td>
+	<td width="49%" valign="top"><?php echo $tip?></td>
 </tr>
 <tr>
-	<td width="49%" valign="top"><?=$free?></td>
+	<td width="49%" valign="top"><?php echo $free?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$news?></td>
+	<td width="49%" valign="top"><?php echo $news?></td>
 </tr>
 <tr>
-	<td width="49%" valign="top"><?=$notice?></td>
+	<td width="49%" valign="top"><?php echo $notice?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$comment?></td>
+	<td width="49%" valign="top"><?php echo $comment?></td>
 </tr>
 <tr>
-	<td width="49%" valign="top"><?=$ci_make?></td>
+	<td width="49%" valign="top"><?php echo $ci_make?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$job?></td>
+	<td width="49%" valign="top"><?php echo $job?></td>
 </tr>
 <tr>
-	<td width="49%" valign="top"><?=$source?></td>
+	<td width="49%" valign="top"><?php echo $source?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$file?></td>
+	<td width="49%" valign="top"><?php echo $file?></td>
 </tr>
 <?php
 	//코멘트, 포럼 개발자 최근리스트 표시 by emc
-	if($this->session->userdata('auth_code') >= '7') {
+	if($this->session->userdata('auth_code') >= '7')
+	{
 ?>
 <tr>
-	<td width="49%" valign="top"><?=$ci?></td>
+	<td width="49%" valign="top"><?php echo $ci?></td>
 	<td width="2%"></td>
-	<td width="49%" valign="top"><?=$su?></td>
+	<td width="49%" valign="top"><?php echo $su?></td>
 </tr>
 
-<?php } ?>
+<?php
+	}
+?>
 </table>

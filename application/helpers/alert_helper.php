@@ -1,7 +1,8 @@
-<? if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 // 경고메세지를 경고창으로
-function alert($msg='', $url='') {
+function alert($msg='', $url='')
+{
 	$CI =& get_instance();
 
 	if (!$msg) $msg = '올바른 방법으로 이용해 주십시오.';
@@ -17,7 +18,8 @@ function alert($msg='', $url='') {
 }
 
 // 경고메세지 출력후 창을 닫음
-function alert_close($msg) {
+function alert_close($msg)
+{
 	$CI =& get_instance();
 
 	echo "<meta http-equiv=\"content-type\" content=\"text/html; charset=".$CI->config->item('charset')."\">";
@@ -26,7 +28,8 @@ function alert_close($msg) {
 }
 
 // 경고메세지만 출력
-function alert_only($msg) {
+function alert_only($msg)
+{
 	$CI =& get_instance();
 
 	echo "<meta http-equiv=\"content-type\" content=\"text/html; charset=".$CI->config->item('charset')."\">";

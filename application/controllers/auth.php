@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Auth extends Controller
+class Auth extends CI_Controller
 {
 	function __construct()
 	{
@@ -48,7 +48,7 @@ class Auth extends Controller
 			// Get login for counting attempts to login
 			if ($this->config->item('login_count_attempts', 'tank_auth') AND
 					($login = $this->input->post('login'))) {
-				$login = $this->input->xss_clean($login);
+				$login = $this->security->xss_clean($login);
 			} else {
 				$login = '';
 			}
@@ -70,10 +70,8 @@ class Auth extends Controller
 						$data['login_by_username'],
 						$data['login_by_email'])) {								// success
 
-					// 로그인 후 페이지 리다이렉트 관련 수정
-					// modified by kwangmyung, choi at 2009.06.29
-					// redirect('');
-					redirect(base64_decode($returnUrl));
+					// 로그인 후 페이지 리다이렉트 관련 수정. by 웅파. 2013.03.05
+					redirect(unserialize(gzuncompress(stripslashes(base64_decode(strtr($returnUrl, '-_.', '+/='))))));
 				} else {
 					$errors = $this->tank_auth->get_error_message();
 					if (isset($errors['banned'])) {								// banned user
@@ -128,7 +126,7 @@ class Auth extends Controller
 			// Get login for counting attempts to login
 			if ($this->config->item('login_count_attempts', 'tank_auth') AND
 					($login = $this->input->post('login'))) {
-				$login = $this->input->xss_clean($login);
+				$login = $this->security->xss_clean($login);
 			} else {
 				$login = '';
 			}
@@ -191,9 +189,9 @@ class Auth extends Controller
 		$this->tank_auth->logout();
 		?>
 		<script>
-		alert("<?=$this->lang->line('auth_message_logged_out')?>");
+		alert("<?php echo $this->lang->line('auth_message_logged_out')?>");
 		</script>
-		<?
+		<?php
 		redirect('', 'refresh');
 	}
 
@@ -661,7 +659,7 @@ class Auth extends Controller
 	 */
 	function _create_captcha()
 	{
-		$this->load->plugin('captcha');
+		$this->load->helper('captcha');
 
 		$cap = create_captcha(array(
 			'word'			=> mt_rand(10274536, 90853127),

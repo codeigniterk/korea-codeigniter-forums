@@ -27,15 +27,16 @@ define('DIR_WRITE_MODE', 0777);
 |
 */
 
-define('FOPEN_READ', 							'rb');
+define('FOPEN_READ',							'rb');
 define('FOPEN_READ_WRITE',						'r+b');
-define('FOPEN_WRITE_CREATE_DESTRUCTIVE', 		'wb'); // truncates existing file data, use with care
-define('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE', 	'w+b'); // truncates existing file data, use with care
-define('FOPEN_WRITE_CREATE', 					'ab');
-define('FOPEN_READ_WRITE_CREATE', 				'a+b');
-define('FOPEN_WRITE_CREATE_STRICT', 			'xb');
+define('FOPEN_WRITE_CREATE_DESTRUCTIVE',		'wb'); // truncates existing file data, use with care
+define('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE',	'w+b'); // truncates existing file data, use with care
+define('FOPEN_WRITE_CREATE',					'ab');
+define('FOPEN_READ_WRITE_CREATE',				'a+b');
+define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
+//웅파 추가
 $base_url	= "http://".$_SERVER['HTTP_HOST'];
 $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 
@@ -44,15 +45,9 @@ define('CSS_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/include/css');
 define('JS_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/include/js');
 define('INCLUDE_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/include');
 define('HIGH_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/include/syntaxhighlighter');
-define('SV1_DIR', 'http://'.$_SERVER['HTTP_HOST']);
-define('SV2_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/application');
-define('VIEW_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/application/views');
-define('WIDGET_DIR', 'http://'.$_SERVER['HTTP_HOST'].'/widgets');
 define('HOST_DIR', $_SERVER['HTTP_HOST']);
 define('BASEURL', $base_url);
-define('THUMB_IMG', 'http://'.$_SERVER['HTTP_HOST'].'/include/phpthumb/phpThumb.php');
 
-// 추후 수정
 define('DOC_ROOT', dirname(FCPATH));
 define('DATA_ROOT', dirname(FCPATH).'/data');
 define('INCLUDE_ROOT', dirname(FCPATH).'/include');
@@ -61,4 +56,4 @@ define('CSS_ROOT', dirname(FCPATH).'/include/css');
 define('VIEW_ROOT', dirname(FCPATH).'/'.APPPATH.'/views');
 
 /* End of file constants.php */
-/* Location: ./system/application/config/constants.php */
+/* Location: ./application/config/constants.php */

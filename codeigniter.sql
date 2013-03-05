@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `board_ci` (
   KEY `original_no` (`original_no`),
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=373 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' ;
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS `board_ci_make` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `is_delete` (`is_delete`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=70 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' ;
 
 -- --------------------------------------------------------
 
@@ -131,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `board_file` (
   `password` varchar(20) default NULL COMMENT '로그인시 비밀글의 비밀번호, 비회원은 작성시 비밀번호',
   UNIQUE KEY `no` (`no`),
   KEY `is_delete` (`is_delete`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=157 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' ;
 
 -- --------------------------------------------------------
 
@@ -168,7 +168,7 @@ CREATE TABLE IF NOT EXISTS `board_free` (
   UNIQUE KEY `no` (`no`),
   KEY `original_no` (`original_no`),
   KEY `user_id` (`user_id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=8799 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 
 -- --------------------------------------------------------
 
@@ -207,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `board_html5` (
   KEY `original_no` (`original_no`),
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=17 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 
 -- --------------------------------------------------------
 
@@ -246,7 +246,7 @@ CREATE TABLE IF NOT EXISTS `board_lecture` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `original_no` (`original_no`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=258 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 
 -- --------------------------------------------------------
 
@@ -265,8 +265,18 @@ CREATE TABLE IF NOT EXISTS `board_list` (
   `detail_setting` longtext NOT NULL COMMENT '세부설정',
   `reg_date` datetime NOT NULL COMMENT '등록일',
   PRIMARY KEY  (`no`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='게시판리스트' AUTO_INCREMENT=13 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='게시판리스트'  ;
 
+INSERT INTO `board_list` (`no`, `skin`, `name`, `name_en`, `enable`, `permission`, `category_word`, `detail_setting`, `reg_date`) VALUES
+(1, 'default', 'CI 뉴스', 'board_news', 'Y', '1|1|3|7', '', '', '2009-06-29 11:32:10'),
+(2, 'default', '공지사항', 'board_notice', 'Y', '1|1|3|15', '', '', '2009-06-29 11:33:10'),
+(3, 'default', '자유게시판', 'board_free', 'Y', '1|1|3|3', '', '', '2009-06-29 12:49:35'),
+(11, 'default', 'html5, css3', 'board_html5', 'Y', '1|3|3|3', '', '', '0000-00-00 00:00:00'),
+(4, 'default', 'TIP게시판', 'board_tip', 'Y', '1|1|3|3', '', '', '2009-07-07 22:35:39'),
+(5, 'default', '강좌게시판', 'board_lecture', 'Y', '1|1|3|3', '', '', '2009-07-07 22:35:39'),
+(6, 'default', 'CI 묻고 답하기', 'board_qna', 'Y', '1|1|3|3', '', '', '2009-07-07 22:35:39'),
+(7, 'default', 'CI 코드', 'board_source', 'Y', '1|1|3|3', '', '', '2009-07-07 22:35:39'),
+(8, 'default', '일반자료실', 'board_file', 'Y', '1|1|3|3', '', '', '2009-07-07 22:35:39');
 -- --------------------------------------------------------
 
 --
@@ -304,7 +314,7 @@ CREATE TABLE IF NOT EXISTS `board_news` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `is_delete` (`is_delete`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=36 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' ;
 
 -- --------------------------------------------------------
 
@@ -343,7 +353,7 @@ CREATE TABLE IF NOT EXISTS `board_notice` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `is_delete` (`is_delete`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=1340 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 
 -- --------------------------------------------------------
 
@@ -381,7 +391,7 @@ CREATE TABLE IF NOT EXISTS `board_qna` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `original_no` (`original_no`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=5972 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 
 -- --------------------------------------------------------
 
@@ -420,7 +430,7 @@ CREATE TABLE IF NOT EXISTS `board_source` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `is_delete` (`is_delete`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=580 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' ;
 
 -- --------------------------------------------------------
 
@@ -455,7 +465,7 @@ CREATE TABLE IF NOT EXISTS `board_su` (
   `is_delete` enum('Y','N') NOT NULL default 'N' COMMENT '삭제 여부',
   `password` varchar(20) default NULL COMMENT '로그인시 비밀글의 비밀번호, 비회원은 작성시 비밀번호',
   UNIQUE KEY `no` (`no`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='운영진 게시판' AUTO_INCREMENT=361 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='운영진 게시판'  ;
 
 -- --------------------------------------------------------
 
@@ -494,8 +504,114 @@ CREATE TABLE IF NOT EXISTS `board_tip` (
   KEY `user_id` (`user_id`),
   KEY `user_name` (`user_name`),
   KEY `is_delete` (`is_delete`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장' AUTO_INCREMENT=831 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 
+-- --------------------------------------------------------
+
+--
+-- 테이블 구조 `board_etc_qna`
+--
+
+CREATE TABLE IF NOT EXISTS `board_etc_qna` (
+  `no` int(11) NOT NULL auto_increment,
+  `original_no` int(11) NOT NULL COMMENT '원본글번호-리플일 경우 사용',
+  `division` varchar(10) default NULL COMMENT '분류, 말머리',
+  `module_no` int(11) NOT NULL COMMENT '모듈 고유번호',
+  `user_no` int(11) NOT NULL COMMENT '사용자 번호-users테이블',
+  `user_id` varchar(50) NOT NULL COMMENT '사용자 아이디',
+  `user_name` varchar(10) NOT NULL COMMENT '작성자 이름',
+  `reg_date` datetime NOT NULL COMMENT '등록일',
+  `modify_date` datetime NOT NULL COMMENT '수정일',
+  `is_notice` enum('Y','N') NOT NULL default 'N' COMMENT '공지글 여부',
+  `is_secret` enum('Y','N') NOT NULL default 'N' COMMENT '비밀글 여부',
+  `subject` varchar(100) NOT NULL COMMENT '제목',
+  `general_setting` text NOT NULL COMMENT '각종 설정',
+  `contents` text NOT NULL COMMENT '내용',
+  `files_count` int(11) NOT NULL default '0' COMMENT '첨부파일 개수',
+  `download_count` int(11) NOT NULL COMMENT '다운로드 수',
+  `scrap_count` int(11) NOT NULL COMMENT '스크랩수',
+  `hit` int(11) NOT NULL default '0' COMMENT '조회수',
+  `trackback_count` int(11) NOT NULL default '0' COMMENT '엮임글 수',
+  `reply_count` int(11) NOT NULL default '0' COMMENT '리플수',
+  `voted_count` int(11) NOT NULL default '0' COMMENT '추천수',
+  `blamed_count` int(11) NOT NULL default '0' COMMENT '신고수',
+  `ip` varchar(15) NOT NULL COMMENT '작성자 ip 주소',
+  `is_delete` enum('Y','N') NOT NULL default 'N' COMMENT '삭제 여부',
+  `password` varchar(20) default NULL COMMENT '로그인시 비밀글의 비밀번호, 비회원은 작성시 비밀번호',
+  UNIQUE KEY `no` (`no`),
+  KEY `original_no` (`original_no`),
+  KEY `user_id` (`user_id`),
+  KEY `user_name` (`user_name`),
+  KEY `is_delete` (`is_delete`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
+
+
+CREATE TABLE IF NOT EXISTS `board_job` (
+  `no` int(11) NOT NULL auto_increment,
+  `original_no` int(11) NOT NULL COMMENT '원본글번호-리플일 경우 사용',
+  `division` varchar(10) default NULL COMMENT '분류, 말머리',
+  `module_no` int(11) NOT NULL COMMENT '모듈 고유번호',
+  `user_no` int(11) NOT NULL COMMENT '사용자 번호-users테이블',
+  `user_id` varchar(50) NOT NULL COMMENT '사용자 아이디',
+  `user_name` varchar(10) NOT NULL COMMENT '작성자 이름',
+  `reg_date` datetime NOT NULL COMMENT '등록일',
+  `modify_date` datetime NOT NULL COMMENT '수정일',
+  `is_notice` enum('Y','N') NOT NULL default 'N' COMMENT '공지글 여부',
+  `is_secret` enum('Y','N') NOT NULL default 'N' COMMENT '비밀글 여부',
+  `subject` varchar(100) NOT NULL COMMENT '제목',
+  `general_setting` text NOT NULL COMMENT '각종 설정',
+  `contents` text NOT NULL COMMENT '내용',
+  `files_count` int(11) NOT NULL default '0' COMMENT '첨부파일 개수',
+  `download_count` int(11) NOT NULL COMMENT '다운로드 수',
+  `scrap_count` int(11) NOT NULL COMMENT '스크랩수',
+  `hit` int(11) NOT NULL default '0' COMMENT '조회수',
+  `trackback_count` int(11) NOT NULL default '0' COMMENT '엮임글 수',
+  `reply_count` int(11) NOT NULL default '0' COMMENT '리플수',
+  `voted_count` int(11) NOT NULL default '0' COMMENT '추천수',
+  `blamed_count` int(11) NOT NULL default '0' COMMENT '신고수',
+  `ip` varchar(15) NOT NULL COMMENT '작성자 ip 주소',
+  `is_delete` enum('Y','N') NOT NULL default 'N' COMMENT '삭제 여부',
+  `password` varchar(20) default NULL COMMENT '로그인시 비밀글의 비밀번호, 비회원은 작성시 비밀번호',
+  UNIQUE KEY `no` (`no`),
+  KEY `original_no` (`original_no`),
+  KEY `user_id` (`user_id`),
+  KEY `user_name` (`user_name`),
+  KEY `is_delete` (`is_delete`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
+
+
+CREATE TABLE IF NOT EXISTS `board_ad` (
+  `no` int(11) NOT NULL auto_increment,
+  `original_no` int(11) NOT NULL COMMENT '원본글번호-리플일 경우 사용',
+  `division` varchar(10) default NULL COMMENT '분류, 말머리',
+  `module_no` int(11) NOT NULL COMMENT '모듈 고유번호',
+  `user_no` int(11) NOT NULL COMMENT '사용자 번호-users테이블',
+  `user_id` varchar(50) NOT NULL COMMENT '사용자 아이디',
+  `user_name` varchar(10) NOT NULL COMMENT '작성자 이름',
+  `reg_date` datetime NOT NULL COMMENT '등록일',
+  `modify_date` datetime NOT NULL COMMENT '수정일',
+  `is_notice` enum('Y','N') NOT NULL default 'N' COMMENT '공지글 여부',
+  `is_secret` enum('Y','N') NOT NULL default 'N' COMMENT '비밀글 여부',
+  `subject` varchar(100) NOT NULL COMMENT '제목',
+  `general_setting` text NOT NULL COMMENT '각종 설정',
+  `contents` text NOT NULL COMMENT '내용',
+  `files_count` int(11) NOT NULL default '0' COMMENT '첨부파일 개수',
+  `download_count` int(11) NOT NULL COMMENT '다운로드 수',
+  `scrap_count` int(11) NOT NULL COMMENT '스크랩수',
+  `hit` int(11) NOT NULL default '0' COMMENT '조회수',
+  `trackback_count` int(11) NOT NULL default '0' COMMENT '엮임글 수',
+  `reply_count` int(11) NOT NULL default '0' COMMENT '리플수',
+  `voted_count` int(11) NOT NULL default '0' COMMENT '추천수',
+  `blamed_count` int(11) NOT NULL default '0' COMMENT '신고수',
+  `ip` varchar(15) NOT NULL COMMENT '작성자 ip 주소',
+  `is_delete` enum('Y','N') NOT NULL default 'N' COMMENT '삭제 여부',
+  `password` varchar(20) default NULL COMMENT '로그인시 비밀글의 비밀번호, 비회원은 작성시 비밀번호',
+  UNIQUE KEY `no` (`no`),
+  KEY `original_no` (`original_no`),
+  KEY `user_id` (`user_id`),
+  KEY `user_name` (`user_name`),
+  KEY `is_delete` (`is_delete`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='게시물 저장'  ;
 -- --------------------------------------------------------
 
 --
@@ -524,7 +640,7 @@ CREATE TABLE IF NOT EXISTS `click` (
   `date` datetime NOT NULL,
   `id` varchar(4) NOT NULL COMMENT 'banner id',
   PRIMARY KEY  (`no`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=362 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
 
 -- --------------------------------------------------------
 
@@ -546,7 +662,7 @@ CREATE TABLE IF NOT EXISTS `files` (
   PRIMARY KEY  (`no`),
   KEY `module_no` (`module_no`),
   KEY `module_name` (`module_name`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='첨부파일' AUTO_INCREMENT=2023 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='첨부파일'  ;
 
 -- --------------------------------------------------------
 
@@ -560,7 +676,7 @@ CREATE TABLE IF NOT EXISTS `login_attempts` (
   `login` varchar(50) collate utf8_bin NOT NULL,
   `time` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=3326 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin  ;
 
 -- --------------------------------------------------------
 
@@ -577,7 +693,7 @@ CREATE TABLE IF NOT EXISTS `search_words` (
   `user_id` varchar(12) NOT NULL,
   `ip` varchar(15) NOT NULL COMMENT '검색자ip',
   PRIMARY KEY  (`no`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='검색어 테이블' AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='검색어 테이블'  ;
 
 -- --------------------------------------------------------
 
@@ -597,7 +713,7 @@ CREATE TABLE IF NOT EXISTS `tags` (
   KEY `module_name` (`module_name`),
   KEY `parent_no` (`parent_no`),
   KEY `module_type` (`module_type`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='태그' AUTO_INCREMENT=832 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='태그' ;
 
 -- --------------------------------------------------------
 
@@ -616,7 +732,7 @@ CREATE TABLE IF NOT EXISTS `trackbacks` (
   `ip_address` varchar(16) NOT NULL,
   PRIMARY KEY  (`tb_id`),
   KEY `entry_id` (`entry_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='트랙백' AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='트랙백'  ;
 
 -- --------------------------------------------------------
 
@@ -648,7 +764,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   KEY `nickname` (`nickname`),
   FULLTEXT KEY `userid` (`userid`),
   FULLTEXT KEY `password` (`password`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1030 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin ;
 
 -- --------------------------------------------------------
 
@@ -677,4 +793,4 @@ CREATE TABLE IF NOT EXISTS `user_profiles` (
   `country` varchar(20) collate utf8_bin default NULL,
   `website` varchar(255) collate utf8_bin default NULL,
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=1030 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
