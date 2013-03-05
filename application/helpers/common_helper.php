@@ -227,7 +227,7 @@ function url_code($url, $type='e')
 	if($type == 'e')
 	{
 		//encode
-		return strtr(base64_encode(addslashes(gzcompress(serialize($rpath), 9))), '+/=', '-_.');
+		return strtr(base64_encode(addslashes(gzcompress(serialize($url), 9))), '+/=', '-_.');
 	}
 	else
 	{

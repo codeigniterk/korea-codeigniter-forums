@@ -1,39 +1,31 @@
 <script>
 $(function(){
- 	$(".file_delete").each(function(){
-		$('.file_delete').click(function(){
-			var span_no = $(this).attr("ref");
-			var hrefs = $(this).attr("raf");
-			alert(span_no+'--'+hrefs);
-/*
-			var cfm = confirm('삭제하시겠습니까?');
-			if(cfm) {
-				$.ajax({
-					type: "POST",
-					url: hrefs,
-					data:{
-						"module_no":'<?php echo $this->uri->segment(3)?>',
-						"table":'<?php echo MENU_BOARD_NAME_EN?>',
-						"file_table":'files'
-						},
+	$('.file_delete').click(function(){
+		var span_no = $(this).attr("ref");
+		var hrefs = $(this).attr("raf");
+		var cfm = confirm('삭제하시겠습니까?');
 
-
-					success : function(data,status){
-						if(data == "1")
-						{
-							alert('삭제 되었습니다.');
-							$('#file_row_'+span_no).hide();
-						}
-						else {
-							alert('삭제 실패 하였습니다.');
-						}
+		if(cfm) {
+			$.ajax({
+				type: "POST",
+				url: hrefs,
+				data:{
+					"module_no":'<?php echo $this->uri->segment(3)?>',
+					"table":'<?php echo MENU_BOARD_NAME_EN?>',
+					"file_table":'files'
+					},
+				success : function(data,status){
+					if(data == "1")
+					{
+						alert('삭제 되었습니다.');
+						$('#file_row_'+span_no).hide();
 					}
-
-				})
-			}
-*/
-		});
-
+					else {
+						alert('삭제 실패 하였습니다.');
+					}
+				}
+			})
+		}
 	});
 });
 </script>
@@ -53,8 +45,14 @@ else
 {
 	$notice_chk = '';
 }
+
+if ($this->session->userdata('auth_code') == 'ADMIN' )
+{
 ?>
 	&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="fixed" <?php echo $notice_chk?> /> 글 고정
+<?php
+}
+?>
 	</td>
 </tr>
 <tr>

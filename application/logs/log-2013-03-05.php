@@ -6881,3 +6881,3826 @@ DEBUG - 2013-03-05 15:47:44 --> UTF-8 Support Enabled
 DEBUG - 2013-03-05 15:47:44 --> URI Class Initialized
 DEBUG - 2013-03-05 15:47:44 --> Router Class Initialized
 ERROR - 2013-03-05 15:47:44 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:50:50 --> Config Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:50:50 --> URI Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Router Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Output Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Security Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Input Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:50:50 --> Language Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:50:50 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:50:50 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:50:50 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:50:50 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:50:50 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:50:50 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Session Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:50:51 --> Session routines successfully run
+DEBUG - 2013-03-05 15:50:51 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Model Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Model Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:50:51 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:50:51 --> Model Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Upload Class Initialized
+DEBUG - 2013-03-05 15:50:51 --> Language file loaded: language/korean/form_validation_lang.php
+DEBUG - 2013-03-05 15:50:51 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:50:51 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:50:51 --> XSS Filtering completed
+ERROR - 2013-03-05 15:50:51 --> Severity: Notice  --> Undefined index: fixed D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 133
+ERROR - 2013-03-05 15:50:51 --> Severity: Notice  --> Undefined index: secret D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 138
+ERROR - 2013-03-05 15:50:51 --> Severity: Notice  --> Undefined index: password D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 155
+ERROR - 2013-03-05 15:50:51 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 15:50:51 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 15:50:51 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:50:51 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:50:51 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:50:52 --> Final output sent to browser
+DEBUG - 2013-03-05 15:50:52 --> Total execution time: 1.7806
+DEBUG - 2013-03-05 15:50:56 --> Config Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Config Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:50:56 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:50:56 --> URI Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Router Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> URI Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Router Class Initialized
+DEBUG - 2013-03-05 15:50:56 --> Output Class Initialized
+ERROR - 2013-03-05 15:50:57 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:50:57 --> Security Class Initialized
+DEBUG - 2013-03-05 15:50:57 --> Input Class Initialized
+DEBUG - 2013-03-05 15:50:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:50:57 --> Language Class Initialized
+DEBUG - 2013-03-05 15:50:57 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:50:57 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:50:57 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:50:57 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:50:57 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:50:57 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:50:57 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:50:58 --> Session Class Initialized
+DEBUG - 2013-03-05 15:50:58 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:50:58 --> Session routines successfully run
+DEBUG - 2013-03-05 15:50:58 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:50:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:50:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:50:58 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:50:58 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:50:58 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:50:58 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 15:50:58 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:50:58 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:50:58 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:50:58 --> Final output sent to browser
+DEBUG - 2013-03-05 15:50:58 --> Total execution time: 1.6068
+DEBUG - 2013-03-05 15:50:59 --> Config Class Initialized
+DEBUG - 2013-03-05 15:50:59 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:50:59 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:50:59 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:50:59 --> URI Class Initialized
+DEBUG - 2013-03-05 15:50:59 --> Router Class Initialized
+ERROR - 2013-03-05 15:50:59 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:51:01 --> Config Class Initialized
+DEBUG - 2013-03-05 15:51:01 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:51:02 --> URI Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Router Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Output Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Security Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Input Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:51:02 --> Language Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:51:02 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:51:02 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:51:02 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:51:02 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:51:02 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:51:02 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Session Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:51:03 --> Session routines successfully run
+DEBUG - 2013-03-05 15:51:03 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Model Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Model Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:51:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:51:03 --> Model Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:51:03 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 217
+ERROR - 2013-03-05 15:51:03 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\edit_v.php 104
+DEBUG - 2013-03-05 15:51:03 --> File loaded: application/views/board/default/edit_v.php
+DEBUG - 2013-03-05 15:51:03 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:51:03 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:51:03 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:51:03 --> Final output sent to browser
+DEBUG - 2013-03-05 15:51:03 --> Total execution time: 1.6252
+DEBUG - 2013-03-05 15:51:03 --> Config Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:51:03 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:51:04 --> URI Class Initialized
+DEBUG - 2013-03-05 15:51:04 --> Router Class Initialized
+ERROR - 2013-03-05 15:51:04 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:53:44 --> Config Class Initialized
+DEBUG - 2013-03-05 15:53:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:53:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:53:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:53:44 --> URI Class Initialized
+DEBUG - 2013-03-05 15:53:44 --> Router Class Initialized
+DEBUG - 2013-03-05 15:53:44 --> Output Class Initialized
+DEBUG - 2013-03-05 15:53:44 --> Security Class Initialized
+DEBUG - 2013-03-05 15:53:45 --> Input Class Initialized
+DEBUG - 2013-03-05 15:53:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:53:45 --> Language Class Initialized
+DEBUG - 2013-03-05 15:53:45 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:53:45 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:53:45 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:53:45 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:53:45 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:53:45 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:53:45 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Session Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:53:46 --> Session routines successfully run
+DEBUG - 2013-03-05 15:53:46 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:53:46 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:53:46 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Upload Class Initialized
+DEBUG - 2013-03-05 15:53:46 --> Language file loaded: language/korean/form_validation_lang.php
+DEBUG - 2013-03-05 15:53:46 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:53:46 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:53:46 --> XSS Filtering completed
+ERROR - 2013-03-05 15:53:46 --> Severity: Notice  --> Undefined index: fixed D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 133
+ERROR - 2013-03-05 15:53:46 --> Severity: Notice  --> Undefined index: secret D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 138
+ERROR - 2013-03-05 15:53:46 --> Severity: Notice  --> Undefined index: password D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 155
+ERROR - 2013-03-05 15:53:46 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 15:53:46 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 15:53:46 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:53:46 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:53:46 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:53:46 --> Final output sent to browser
+DEBUG - 2013-03-05 15:53:46 --> Total execution time: 1.8230
+DEBUG - 2013-03-05 15:53:51 --> Config Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Config Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:53:51 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:53:51 --> URI Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Router Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> URI Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Router Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Output Class Initialized
+ERROR - 2013-03-05 15:53:51 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:53:51 --> Security Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Input Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:53:51 --> Language Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:53:51 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:53:51 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:53:51 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:53:51 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:53:51 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:53:51 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:53:52 --> Session Class Initialized
+DEBUG - 2013-03-05 15:53:52 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:53:52 --> Session routines successfully run
+DEBUG - 2013-03-05 15:53:52 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:53:52 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:52 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:52 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:53:52 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:53:52 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:53:52 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 15:53:52 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:53:52 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:53:52 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:53:52 --> Final output sent to browser
+DEBUG - 2013-03-05 15:53:52 --> Total execution time: 1.6063
+DEBUG - 2013-03-05 15:53:54 --> Config Class Initialized
+DEBUG - 2013-03-05 15:53:54 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:53:54 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:53:54 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:53:54 --> URI Class Initialized
+DEBUG - 2013-03-05 15:53:55 --> Router Class Initialized
+ERROR - 2013-03-05 15:53:55 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:53:57 --> Config Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:53:57 --> URI Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Router Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Output Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Security Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Input Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:53:57 --> Language Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:53:57 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:53:57 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:53:57 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:53:57 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:53:57 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:53:57 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:53:58 --> Session Class Initialized
+DEBUG - 2013-03-05 15:53:58 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:53:58 --> Session routines successfully run
+DEBUG - 2013-03-05 15:53:58 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:53:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:58 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:53:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:53:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:53:58 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:53:58 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 217
+ERROR - 2013-03-05 15:53:59 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\edit_v.php 104
+DEBUG - 2013-03-05 15:53:59 --> File loaded: application/views/board/default/edit_v.php
+DEBUG - 2013-03-05 15:53:59 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:53:59 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:53:59 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:53:59 --> Final output sent to browser
+DEBUG - 2013-03-05 15:53:59 --> Total execution time: 1.6229
+DEBUG - 2013-03-05 15:53:59 --> Config Class Initialized
+DEBUG - 2013-03-05 15:53:59 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:53:59 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:53:59 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:53:59 --> URI Class Initialized
+DEBUG - 2013-03-05 15:53:59 --> Router Class Initialized
+ERROR - 2013-03-05 15:53:59 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:54:04 --> Config Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Config Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:54:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:54:04 --> URI Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Router Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> URI Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Router Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Output Class Initialized
+ERROR - 2013-03-05 15:54:04 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:54:04 --> Security Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Input Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:54:04 --> Language Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:54:04 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:54:04 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:54:04 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:54:04 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:54:05 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:54:05 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:54:06 --> Session Class Initialized
+DEBUG - 2013-03-05 15:54:06 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:54:06 --> Session routines successfully run
+DEBUG - 2013-03-05 15:54:06 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:54:06 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:54:06 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:54:06 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:54:06 --> Final output sent to browser
+DEBUG - 2013-03-05 15:54:06 --> Total execution time: 1.5421
+DEBUG - 2013-03-05 15:54:09 --> Config Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:54:09 --> URI Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Router Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Output Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Security Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Input Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:54:09 --> Language Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:54:09 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:54:09 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:54:09 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:54:09 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:54:09 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:54:09 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:54:10 --> Session Class Initialized
+DEBUG - 2013-03-05 15:54:10 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:54:10 --> Session garbage collection performed.
+DEBUG - 2013-03-05 15:54:10 --> Session routines successfully run
+DEBUG - 2013-03-05 15:54:10 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:54:10 --> Model Class Initialized
+DEBUG - 2013-03-05 15:54:10 --> Model Class Initialized
+DEBUG - 2013-03-05 15:54:10 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:54:10 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:54:10 --> Model Class Initialized
+DEBUG - 2013-03-05 15:54:10 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:54:10 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 217
+ERROR - 2013-03-05 15:54:11 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\edit_v.php 104
+DEBUG - 2013-03-05 15:54:11 --> File loaded: application/views/board/default/edit_v.php
+DEBUG - 2013-03-05 15:54:11 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:54:11 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:54:11 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:54:11 --> Final output sent to browser
+DEBUG - 2013-03-05 15:54:11 --> Total execution time: 1.6593
+DEBUG - 2013-03-05 15:54:11 --> Config Class Initialized
+DEBUG - 2013-03-05 15:54:11 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:54:11 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:54:11 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:54:11 --> URI Class Initialized
+DEBUG - 2013-03-05 15:54:11 --> Router Class Initialized
+ERROR - 2013-03-05 15:54:11 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:55:34 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:34 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Router Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Output Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Security Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Input Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:55:34 --> Language Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:55:34 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:55:34 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:55:34 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:55:34 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:55:34 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:55:34 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:55:35 --> Session Class Initialized
+DEBUG - 2013-03-05 15:55:35 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:55:35 --> Session routines successfully run
+DEBUG - 2013-03-05 15:55:35 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:55:35 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:35 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:35 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:55:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:55:35 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:35 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:55:35 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 217
+DEBUG - 2013-03-05 15:55:36 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:36 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:36 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:36 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:36 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:36 --> Router Class Initialized
+ERROR - 2013-03-05 15:55:36 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:55:44 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:44 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Router Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Output Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Security Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Input Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:55:44 --> Language Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:55:44 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:55:44 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:55:44 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:55:44 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:55:44 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:55:44 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:55:45 --> Session Class Initialized
+DEBUG - 2013-03-05 15:55:45 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:55:45 --> Session routines successfully run
+DEBUG - 2013-03-05 15:55:45 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:55:45 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:45 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:45 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:55:45 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:55:45 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:45 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:55:45 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 217
+ERROR - 2013-03-05 15:55:45 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\edit_v.php 110
+DEBUG - 2013-03-05 15:55:45 --> File loaded: application/views/board/default/edit_v.php
+DEBUG - 2013-03-05 15:55:45 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:55:45 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:55:45 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:55:45 --> Final output sent to browser
+DEBUG - 2013-03-05 15:55:45 --> Total execution time: 1.6357
+DEBUG - 2013-03-05 15:55:46 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:46 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:46 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:46 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:46 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:46 --> Router Class Initialized
+ERROR - 2013-03-05 15:55:46 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:55:52 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:52 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:52 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:52 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:52 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:52 --> Router Class Initialized
+ERROR - 2013-03-05 15:55:52 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:55:54 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:54 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:54 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:54 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:54 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:54 --> Router Class Initialized
+ERROR - 2013-03-05 15:55:54 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:55:57 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:57 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Router Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Output Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Security Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Input Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:55:57 --> Language Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:55:57 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:55:57 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:55:57 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:55:57 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:55:57 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:55:57 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:55:58 --> Session Class Initialized
+DEBUG - 2013-03-05 15:55:58 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:55:58 --> Session routines successfully run
+DEBUG - 2013-03-05 15:55:58 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:55:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:58 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:55:58 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:55:58 --> Model Class Initialized
+DEBUG - 2013-03-05 15:55:58 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:55:58 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 413
+ERROR - 2013-03-05 15:55:58 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\write_v.php 43
+DEBUG - 2013-03-05 15:55:58 --> File loaded: application/views/board/default/write_v.php
+ERROR - 2013-03-05 15:55:58 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 15:55:58 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 15:55:58 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:55:58 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:55:58 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:55:58 --> Final output sent to browser
+DEBUG - 2013-03-05 15:55:59 --> Total execution time: 1.6845
+DEBUG - 2013-03-05 15:55:59 --> Config Class Initialized
+DEBUG - 2013-03-05 15:55:59 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:55:59 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:55:59 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:55:59 --> URI Class Initialized
+DEBUG - 2013-03-05 15:55:59 --> Router Class Initialized
+ERROR - 2013-03-05 15:55:59 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:56:04 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:04 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Router Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Output Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Security Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Input Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:56:04 --> Language Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:56:04 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:56:04 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:56:04 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:56:04 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:56:04 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:56:04 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> Session Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:56:05 --> Session routines successfully run
+DEBUG - 2013-03-05 15:56:05 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:56:05 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 15:56:05 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:56:05 --> Language file loaded: language/korean/form_validation_lang.php
+ERROR - 2013-03-05 15:56:05 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 430
+DEBUG - 2013-03-05 15:56:05 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:56:05 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:56:05 --> XSS Filtering completed
+ERROR - 2013-03-05 15:56:05 --> Severity: Notice  --> Undefined index: fixed D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 21
+ERROR - 2013-03-05 15:56:05 --> Severity: Notice  --> Undefined index: secret D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 26
+ERROR - 2013-03-05 15:56:05 --> Severity: Notice  --> Undefined index: password D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 56
+DEBUG - 2013-03-05 15:56:05 --> Email Class Initialized
+DEBUG - 2013-03-05 15:56:06 --> Language file loaded: language/korean/email_lang.php
+ERROR - 2013-03-05 15:56:06 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 15:56:06 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 15:56:06 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:56:06 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:56:06 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:56:06 --> Final output sent to browser
+DEBUG - 2013-03-05 15:56:06 --> Total execution time: 1.9734
+DEBUG - 2013-03-05 15:56:09 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:09 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:09 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Router Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Router Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Output Class Initialized
+ERROR - 2013-03-05 15:56:09 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:56:09 --> Security Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Input Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:56:09 --> Language Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:56:09 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:56:09 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:56:09 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:56:09 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:56:09 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:56:09 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:56:10 --> Session Class Initialized
+DEBUG - 2013-03-05 15:56:10 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:56:10 --> Session routines successfully run
+DEBUG - 2013-03-05 15:56:10 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:56:10 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:10 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:10 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:56:10 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:56:10 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:56:10 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 15:56:10 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:56:10 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:56:10 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:56:10 --> Final output sent to browser
+DEBUG - 2013-03-05 15:56:10 --> Total execution time: 1.5980
+DEBUG - 2013-03-05 15:56:11 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:11 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:11 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:11 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:11 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:11 --> Router Class Initialized
+ERROR - 2013-03-05 15:56:11 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:56:16 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:16 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:16 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:16 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:16 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:16 --> Router Class Initialized
+DEBUG - 2013-03-05 15:56:17 --> Output Class Initialized
+DEBUG - 2013-03-05 15:56:17 --> Security Class Initialized
+DEBUG - 2013-03-05 15:56:17 --> Input Class Initialized
+DEBUG - 2013-03-05 15:56:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:56:17 --> Language Class Initialized
+DEBUG - 2013-03-05 15:56:17 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:56:17 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:56:17 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:56:17 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:56:17 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:56:17 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:56:17 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:56:18 --> Session Class Initialized
+DEBUG - 2013-03-05 15:56:18 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:56:18 --> Session routines successfully run
+DEBUG - 2013-03-05 15:56:18 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:56:18 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:18 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:18 --> File loaded: application/views/top_v.php
+ERROR - 2013-03-05 15:56:18 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 15:56:18 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 15:56:18 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:56:18 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:56:18 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:56:18 --> Final output sent to browser
+DEBUG - 2013-03-05 15:56:18 --> Total execution time: 1.5643
+DEBUG - 2013-03-05 15:56:22 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:22 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:22 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Router Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Router Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Output Class Initialized
+ERROR - 2013-03-05 15:56:22 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:56:22 --> Security Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Input Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:56:22 --> Language Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:56:22 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:56:22 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:56:22 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:56:22 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:56:22 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:56:22 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:56:23 --> Session Class Initialized
+DEBUG - 2013-03-05 15:56:23 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:56:23 --> Session routines successfully run
+DEBUG - 2013-03-05 15:56:23 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:56:23 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:23 --> Model Class Initialized
+DEBUG - 2013-03-05 15:56:23 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:56:23 --> XSS Filtering completed
+ERROR - 2013-03-05 15:56:23 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:56:23 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:56:23 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:56:23 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:56:23 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+DEBUG - 2013-03-05 15:56:23 --> File loaded: application/views/board/default/lists_v.php
+DEBUG - 2013-03-05 15:56:23 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:56:23 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:56:23 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:56:23 --> Final output sent to browser
+DEBUG - 2013-03-05 15:56:23 --> Total execution time: 1.8665
+DEBUG - 2013-03-05 15:56:24 --> Config Class Initialized
+DEBUG - 2013-03-05 15:56:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:56:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:56:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:56:24 --> URI Class Initialized
+DEBUG - 2013-03-05 15:56:24 --> Router Class Initialized
+ERROR - 2013-03-05 15:56:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:57:55 --> Config Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:57:55 --> URI Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Router Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Output Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Security Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Input Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:57:55 --> Language Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:57:55 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:57:55 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:57:55 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:57:55 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:57:55 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:57:55 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:57:56 --> Session Class Initialized
+DEBUG - 2013-03-05 15:57:56 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:57:56 --> Session routines successfully run
+DEBUG - 2013-03-05 15:57:56 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:57:56 --> Model Class Initialized
+DEBUG - 2013-03-05 15:57:56 --> Model Class Initialized
+DEBUG - 2013-03-05 15:57:56 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:57:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:57:56 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:57:56 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 15:57:56 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:57:56 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:57:56 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:57:56 --> Final output sent to browser
+DEBUG - 2013-03-05 15:57:56 --> Total execution time: 1.6408
+DEBUG - 2013-03-05 15:57:57 --> Config Class Initialized
+DEBUG - 2013-03-05 15:57:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:57:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:57:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:57:57 --> URI Class Initialized
+DEBUG - 2013-03-05 15:57:57 --> Router Class Initialized
+ERROR - 2013-03-05 15:57:57 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:58:02 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:02 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Router Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Output Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Security Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Input Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:58:02 --> Language Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:58:02 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:58:02 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:58:02 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:58:02 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:58:03 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:58:03 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Session Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:58:04 --> Session routines successfully run
+DEBUG - 2013-03-05 15:58:04 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:58:04 --> XSS Filtering completed
+ERROR - 2013-03-05 15:58:04 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:58:04 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:58:04 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:58:04 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 15:58:04 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+DEBUG - 2013-03-05 15:58:04 --> File loaded: application/views/board/default/lists_v.php
+DEBUG - 2013-03-05 15:58:04 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:58:04 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:58:04 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:58:04 --> Final output sent to browser
+DEBUG - 2013-03-05 15:58:04 --> Total execution time: 1.7196
+DEBUG - 2013-03-05 15:58:04 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:04 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:04 --> Router Class Initialized
+ERROR - 2013-03-05 15:58:04 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:58:06 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:06 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Router Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Output Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Security Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Input Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:58:06 --> Language Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:58:06 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:58:06 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:58:06 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:58:06 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:58:06 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:58:06 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:58:07 --> Session Class Initialized
+DEBUG - 2013-03-05 15:58:07 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:58:07 --> Session routines successfully run
+DEBUG - 2013-03-05 15:58:07 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:58:07 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:07 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:07 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:58:07 --> XSS Filtering completed
+DEBUG - 2013-03-05 15:58:08 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 15:58:08 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 15:58:08 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 15:58:08 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 15:58:08 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 15:58:08 --> Final output sent to browser
+DEBUG - 2013-03-05 15:58:08 --> Total execution time: 1.6220
+DEBUG - 2013-03-05 15:58:10 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:10 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:10 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:10 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:10 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:10 --> Router Class Initialized
+ERROR - 2013-03-05 15:58:10 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:58:12 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:12 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:12 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Router Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:12 --> Router Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Output Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Security Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Output Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Router Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Input Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Security Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Global POST and COOKIE data sanitized
+ERROR - 2013-03-05 15:58:12 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:58:12 --> Input Class Initialized
+DEBUG - 2013-03-05 15:58:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 15:58:12 --> Language Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Language Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:58:13 --> Loader Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 15:58:13 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:58:13 --> Router Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: alert_helper
+ERROR - 2013-03-05 15:58:13 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 15:58:13 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 15:58:13 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:58:13 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Session Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:58:14 --> Session Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 15:58:14 --> Session routines successfully run
+DEBUG - 2013-03-05 15:58:14 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Session routines successfully run
+DEBUG - 2013-03-05 15:58:14 --> Controller Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:58:14 --> Model Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 15:58:14 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:58:14 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 300
+DEBUG - 2013-03-05 15:58:14 --> Form Validation Class Initialized
+ERROR - 2013-03-05 15:58:14 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 300
+DEBUG - 2013-03-05 15:58:14 --> Config Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 15:58:14 --> URI Class Initialized
+DEBUG - 2013-03-05 15:58:14 --> Router Class Initialized
+ERROR - 2013-03-05 15:58:14 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:00:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Output Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Security Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Input Class Initialized
+DEBUG - 2013-03-05 16:00:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:00:14 --> Language Class Initialized
+DEBUG - 2013-03-05 16:00:15 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:00:15 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:00:15 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:00:15 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:00:15 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:00:15 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:00:15 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:00:16 --> Session Class Initialized
+DEBUG - 2013-03-05 16:00:16 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:00:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:00:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:00:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:16 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:00:16 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:00:16 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:00:16 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:00:16 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:00:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:00:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:00:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:00:16 --> Total execution time: 1.6576
+DEBUG - 2013-03-05 16:00:17 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:17 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:17 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:17 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:17 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:17 --> Router Class Initialized
+ERROR - 2013-03-05 16:00:17 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:00:20 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:20 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:20 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:20 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:21 --> Output Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Output Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Output Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Security Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Security Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Security Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Input Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Input Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Input Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:00:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:00:21 --> Global POST and COOKIE data sanitized
+ERROR - 2013-03-05 16:00:21 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:00:21 --> Language Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Language Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Language Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:00:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:00:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:00:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: alert_helper
+ERROR - 2013-03-05 16:00:21 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:00:21 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:00:21 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:00:21 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Session Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Session Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:00:22 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:00:22 --> Session Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:00:22 --> Session routines successfully run
+DEBUG - 2013-03-05 16:00:22 --> Session routines successfully run
+DEBUG - 2013-03-05 16:00:22 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Session routines successfully run
+DEBUG - 2013-03-05 16:00:22 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:00:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:00:22 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:00:22 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 300
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 300
+DEBUG - 2013-03-05 16:00:22 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 300
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/board/default/reply_edit_v.php
+ERROR - 2013-03-05 16:00:22 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:00:22 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:00:22 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:00:22 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:00:22 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:00:22 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:00:22 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:00:22 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:00:22 --> Final output sent to browser
+DEBUG - 2013-03-05 16:00:22 --> Final output sent to browser
+DEBUG - 2013-03-05 16:00:22 --> Total execution time: 1.7002
+DEBUG - 2013-03-05 16:00:22 --> Total execution time: 1.6910
+DEBUG - 2013-03-05 16:00:22 --> Final output sent to browser
+DEBUG - 2013-03-05 16:00:22 --> Total execution time: 1.7245
+DEBUG - 2013-03-05 16:00:23 --> Config Class Initialized
+DEBUG - 2013-03-05 16:00:23 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:00:23 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:00:23 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:00:23 --> URI Class Initialized
+DEBUG - 2013-03-05 16:00:23 --> Router Class Initialized
+ERROR - 2013-03-05 16:00:23 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:04:11 --> Config Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Config Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:04:11 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:04:11 --> URI Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> URI Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Router Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Router Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Output Class Initialized
+ERROR - 2013-03-05 16:04:11 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:04:11 --> Security Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Input Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Config Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:04:11 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Language Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:04:11 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> URI Class Initialized
+DEBUG - 2013-03-05 16:04:11 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:04:11 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:04:11 --> Router Class Initialized
+ERROR - 2013-03-05 16:04:11 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:04:11 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:04:11 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:04:11 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:04:11 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:04:12 --> Session Class Initialized
+DEBUG - 2013-03-05 16:04:12 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:04:12 --> Session routines successfully run
+DEBUG - 2013-03-05 16:04:12 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:04:12 --> Model Class Initialized
+DEBUG - 2013-03-05 16:04:12 --> Model Class Initialized
+DEBUG - 2013-03-05 16:04:12 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:04:12 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:04:12 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 300
+ERROR - 2013-03-05 16:04:12 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:04:12 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:04:12 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:04:12 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:04:12 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:04:12 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:04:13 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:04:13 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:04:13 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:04:13 --> Final output sent to browser
+DEBUG - 2013-03-05 16:04:13 --> Total execution time: 1.7367
+DEBUG - 2013-03-05 16:05:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Output Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Security Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Output Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Security Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Input Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:05:24 --> Input Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Output Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:05:24 --> Language Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Security Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Language Class Initialized
+ERROR - 2013-03-05 16:05:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:05:24 --> Input Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:05:24 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Language Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:05:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:05:24 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:05:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:05:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:05:24 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: common_helper
+ERROR - 2013-03-05 16:05:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:05:24 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:05:24 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:05:24 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Session Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:05:25 --> Session Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Session routines successfully run
+DEBUG - 2013-03-05 16:05:25 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:05:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Session routines successfully run
+DEBUG - 2013-03-05 16:05:25 --> Session Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:05:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> File loaded: application/views/top0_v.php
+DEBUG - 2013-03-05 16:05:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Session routines successfully run
+DEBUG - 2013-03-05 16:05:25 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> File loaded: application/views/bottom0_v.php
+DEBUG - 2013-03-05 16:05:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> File loaded: application/views/top0_v.php
+DEBUG - 2013-03-05 16:05:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:25 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:05:26 --> File loaded: application/views/bottom0_v.php
+DEBUG - 2013-03-05 16:05:26 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:26 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:05:26 --> File loaded: application/views/top0_v.php
+DEBUG - 2013-03-05 16:05:26 --> Final output sent to browser
+DEBUG - 2013-03-05 16:05:26 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:05:26 --> File loaded: application/views/bottom0_v.php
+DEBUG - 2013-03-05 16:05:26 --> Total execution time: 1.5360
+DEBUG - 2013-03-05 16:05:26 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:05:26 --> Final output sent to browser
+DEBUG - 2013-03-05 16:05:26 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:05:26 --> Total execution time: 1.6514
+DEBUG - 2013-03-05 16:05:26 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:05:26 --> Final output sent to browser
+DEBUG - 2013-03-05 16:05:26 --> Total execution time: 1.7788
+DEBUG - 2013-03-05 16:05:26 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:26 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:26 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:26 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:26 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:26 --> Router Class Initialized
+ERROR - 2013-03-05 16:05:26 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:05:33 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:33 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Output Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Security Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Input Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:05:33 --> Language Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:05:33 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:05:33 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:05:33 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:05:33 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:05:33 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:05:33 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:05:34 --> Session Class Initialized
+DEBUG - 2013-03-05 16:05:34 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:05:34 --> Session routines successfully run
+DEBUG - 2013-03-05 16:05:34 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:05:34 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:34 --> Model Class Initialized
+DEBUG - 2013-03-05 16:05:35 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:05:35 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:05:35 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:05:35 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:05:35 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:05:35 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:05:35 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:05:35 --> Final output sent to browser
+DEBUG - 2013-03-05 16:05:35 --> Total execution time: 1.5994
+DEBUG - 2013-03-05 16:05:37 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:37 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:37 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:37 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:37 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:37 --> Router Class Initialized
+ERROR - 2013-03-05 16:05:37 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:05:39 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Router Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:39 --> Router Class Initialized
+ERROR - 2013-03-05 16:05:39 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:05:45 --> Config Class Initialized
+DEBUG - 2013-03-05 16:05:45 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:05:45 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:05:45 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:05:45 --> URI Class Initialized
+DEBUG - 2013-03-05 16:05:45 --> Router Class Initialized
+ERROR - 2013-03-05 16:05:45 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:06:49 --> Config Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:06:49 --> URI Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Router Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Output Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Security Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Input Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:06:49 --> Language Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:06:49 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:06:49 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:06:49 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:06:49 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:06:49 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:06:49 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:06:50 --> Session Class Initialized
+DEBUG - 2013-03-05 16:06:50 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:06:50 --> Session routines successfully run
+DEBUG - 2013-03-05 16:06:51 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:06:51 --> Model Class Initialized
+DEBUG - 2013-03-05 16:06:51 --> Model Class Initialized
+ERROR - 2013-03-05 16:06:51 --> Severity: Notice  --> Undefined variable: rpath D:\work_php\codeigniter\branches\2.1.3\application\helpers\common_helper.php 230
+DEBUG - 2013-03-05 16:06:51 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:06:51 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:06:51 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:06:51 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:06:51 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:06:51 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:06:51 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:06:51 --> Final output sent to browser
+DEBUG - 2013-03-05 16:06:51 --> Total execution time: 1.5963
+DEBUG - 2013-03-05 16:06:52 --> Config Class Initialized
+DEBUG - 2013-03-05 16:06:52 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:06:52 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:06:52 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:06:52 --> URI Class Initialized
+DEBUG - 2013-03-05 16:06:52 --> Router Class Initialized
+ERROR - 2013-03-05 16:06:52 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:07:16 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:16 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Input Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:16 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:16 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:16 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:16 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:16 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:16 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:07:16 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:17 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:17 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:17 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:17 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:17 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:17 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:17 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:07:17 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:07:17 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:07:17 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:07:17 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:07:17 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:07:17 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:07:17 --> Final output sent to browser
+DEBUG - 2013-03-05 16:07:17 --> Total execution time: 1.6115
+DEBUG - 2013-03-05 16:07:20 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:20 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:20 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:20 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:20 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:20 --> Router Class Initialized
+ERROR - 2013-03-05 16:07:20 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:07:22 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:22 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Input Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:22 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:22 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:22 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:22 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:22 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:22 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:07:22 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:23 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:23 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:23 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:23 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:23 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-03-05 16:07:24 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:07:24 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> Helper loaded: cookie_helper
+DEBUG - 2013-03-05 16:07:24 --> Language file loaded: language/korean/tank_auth_lang.php
+DEBUG - 2013-03-05 16:07:24 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:07:24 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-03-05 16:07:24 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:07:24 --> Final output sent to browser
+DEBUG - 2013-03-05 16:07:24 --> Total execution time: 1.6622
+DEBUG - 2013-03-05 16:07:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:24 --> Router Class Initialized
+ERROR - 2013-03-05 16:07:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:07:31 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:31 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Input Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:31 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:31 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:31 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:31 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:31 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:31 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:07:31 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:32 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:32 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:32 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:32 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:32 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-03-05 16:07:32 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:07:32 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:07:32 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:32 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:32 --> Helper loaded: cookie_helper
+DEBUG - 2013-03-05 16:07:32 --> Language file loaded: language/korean/tank_auth_lang.php
+DEBUG - 2013-03-05 16:07:33 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:07:33 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Language file loaded: language/korean/form_validation_lang.php
+DEBUG - 2013-03-05 16:07:33 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:07:33 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:07:33 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:33 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Input Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:33 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:33 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:33 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:33 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:33 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:33 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:07:33 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:34 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:34 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:34 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:34 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:34 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:34 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:34 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:07:34 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:07:34 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:07:34 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:07:34 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:07:34 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:07:34 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:07:34 --> Final output sent to browser
+DEBUG - 2013-03-05 16:07:34 --> Total execution time: 1.5994
+DEBUG - 2013-03-05 16:07:35 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:35 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:35 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:35 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:35 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:35 --> Router Class Initialized
+ERROR - 2013-03-05 16:07:35 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:07:38 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:38 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:38 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:39 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:39 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Output Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Security Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Input Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Input Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:39 --> Input Class Initialized
+ERROR - 2013-03-05 16:07:39 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:07:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:07:39 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Language Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:39 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:07:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:39 --> Router Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: alert_helper
+ERROR - 2013-03-05 16:07:39 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:07:39 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:07:39 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:39 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:40 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:40 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:40 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:40 --> Session Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:07:40 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Session routines successfully run
+DEBUG - 2013-03-05 16:07:40 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/top0_v.php
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/top0_v.php
+DEBUG - 2013-03-05 16:07:40 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Model Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/top0_v.php
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 317
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 317
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+DEBUG - 2013-03-05 16:07:40 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 317
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/board/default/reply_edit_v.php
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:07:40 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/bottom0_v.php
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/bottom0_v.php
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:07:40 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:07:40 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:07:40 --> File loaded: application/views/bottom0_v.php
+DEBUG - 2013-03-05 16:07:40 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:07:40 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:07:40 --> Final output sent to browser
+DEBUG - 2013-03-05 16:07:40 --> Final output sent to browser
+DEBUG - 2013-03-05 16:07:40 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:07:40 --> Total execution time: 1.6737
+DEBUG - 2013-03-05 16:07:40 --> Total execution time: 1.6681
+DEBUG - 2013-03-05 16:07:40 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:07:40 --> Final output sent to browser
+DEBUG - 2013-03-05 16:07:40 --> Total execution time: 1.6973
+DEBUG - 2013-03-05 16:07:41 --> Config Class Initialized
+DEBUG - 2013-03-05 16:07:41 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:07:41 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:07:41 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:07:41 --> URI Class Initialized
+DEBUG - 2013-03-05 16:07:41 --> Router Class Initialized
+ERROR - 2013-03-05 16:07:41 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:44 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:44 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Router Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Router Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:44 --> Output Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Output Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Security Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Security Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Router Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Input Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Input Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:08:44 --> Global POST and COOKIE data sanitized
+ERROR - 2013-03-05 16:08:44 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:44 --> Language Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Language Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:08:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:08:44 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:08:44 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:08:44 --> Router Class Initialized
+DEBUG - 2013-03-05 16:08:45 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:08:45 --> Helper loaded: alert_helper
+ERROR - 2013-03-05 16:08:45 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:45 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:08:45 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Session Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Session Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:08:46 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:08:46 --> Session routines successfully run
+DEBUG - 2013-03-05 16:08:46 --> Session routines successfully run
+DEBUG - 2013-03-05 16:08:46 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Model Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Model Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Model Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Model Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:46 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:08:46 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:08:46 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:08:46 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:08:46 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:08:46 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:08:46 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:08:46 --> Final output sent to browser
+DEBUG - 2013-03-05 16:08:46 --> Final output sent to browser
+DEBUG - 2013-03-05 16:08:46 --> Total execution time: 1.6348
+DEBUG - 2013-03-05 16:08:46 --> Total execution time: 1.6416
+DEBUG - 2013-03-05 16:08:46 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:46 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Router Class Initialized
+ERROR - 2013-03-05 16:08:46 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:46 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:46 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:46 --> Router Class Initialized
+ERROR - 2013-03-05 16:08:47 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:57 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:57 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Router Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Router Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Output Class Initialized
+ERROR - 2013-03-05 16:08:57 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:57 --> Security Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Input Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Config Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:08:57 --> Language Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:08:57 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> URI Class Initialized
+DEBUG - 2013-03-05 16:08:57 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:08:57 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:08:57 --> Router Class Initialized
+ERROR - 2013-03-05 16:08:57 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:08:57 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:08:57 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:08:57 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:08:57 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:08:58 --> Session Class Initialized
+DEBUG - 2013-03-05 16:08:58 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:08:58 --> Session routines successfully run
+DEBUG - 2013-03-05 16:08:58 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:08:58 --> Model Class Initialized
+DEBUG - 2013-03-05 16:08:58 --> Model Class Initialized
+DEBUG - 2013-03-05 16:08:58 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:08:58 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:08:59 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 82
+ERROR - 2013-03-05 16:08:59 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:59 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:59 --> Severity: Notice  --> Undefined variable: fs D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+ERROR - 2013-03-05 16:08:59 --> Severity: Notice  --> Undefined variable: ss D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\reply_edit_v.php 83
+DEBUG - 2013-03-05 16:08:59 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:08:59 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:08:59 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:08:59 --> Final output sent to browser
+DEBUG - 2013-03-05 16:08:59 --> Total execution time: 1.6245
+DEBUG - 2013-03-05 16:10:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:14 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:15 --> Language Class Initialized
+ERROR - 2013-03-05 16:10:15 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:15 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Language Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:15 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Language Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:15 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:15 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:15 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:15 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: common_helper
+ERROR - 2013-03-05 16:10:15 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:15 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:15 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:15 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:16 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:16 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:10:16 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:10:16 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:10:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:10:16 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:10:16 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:10:16 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:10:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:16 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:10:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:16 --> Total execution time: 1.6093
+DEBUG - 2013-03-05 16:10:16 --> Total execution time: 1.5787
+DEBUG - 2013-03-05 16:10:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:16 --> Total execution time: 1.6042
+DEBUG - 2013-03-05 16:10:16 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:16 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:16 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:16 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:16 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:17 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:17 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:17 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:17 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:17 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:21 --> Language Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:21 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:21 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:21 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:21 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:21 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:21 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:22 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:22 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:22 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:22 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:22 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:10:22 --> Language file loaded: language/korean/form_validation_lang.php
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 323
+DEBUG - 2013-03-05 16:10:22 --> XSS Filtering completed
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: fixed D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 133
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: secret D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 138
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: subject D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 146
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: password D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 165
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: tags D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 172
+ERROR - 2013-03-05 16:10:22 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 332
+ERROR - 2013-03-05 16:10:22 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 16:10:22 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 16:10:22 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:22 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:22 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:22 --> Total execution time: 1.7768
+DEBUG - 2013-03-05 16:10:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Security Class Initialized
+ERROR - 2013-03-05 16:10:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:24 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:24 --> Language Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:24 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:24 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:24 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:24 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:24 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:24 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:25 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:25 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:25 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:25 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:25 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:25 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:10:25 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:10:25 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:10:25 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:10:25 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:10:25 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:25 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:25 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:25 --> Total execution time: 1.6264
+DEBUG - 2013-03-05 16:10:27 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:27 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:27 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:27 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:27 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:27 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:27 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:29 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:29 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:29 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:29 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:29 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Output Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Security Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:29 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Input Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:10:29 --> Language Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Language Class Initialized
+ERROR - 2013-03-05 16:10:29 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:29 --> Language Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:29 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:10:29 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:29 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:10:29 --> Router Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Helper loaded: alert_helper
+ERROR - 2013-03-05 16:10:29 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:29 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:29 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:30 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:30 --> Session Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:30 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:30 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:10:30 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Session routines successfully run
+DEBUG - 2013-03-05 16:10:30 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:10:30 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:10:30 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:10:30 --> Model Class Initialized
+DEBUG - 2013-03-05 16:10:30 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:10:30 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:10:30 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:30 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:30 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:30 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:10:30 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:30 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:30 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:10:30 --> Total execution time: 1.5455
+DEBUG - 2013-03-05 16:10:30 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:30 --> Final output sent to browser
+DEBUG - 2013-03-05 16:10:30 --> Total execution time: 1.5610
+DEBUG - 2013-03-05 16:10:30 --> Total execution time: 1.5482
+DEBUG - 2013-03-05 16:10:31 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:31 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:31 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:31 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:31 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:31 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:31 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:34 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:34 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:34 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:34 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:34 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:34 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:34 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:44 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:44 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:44 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:44 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:44 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:44 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:45 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:45 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:46 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:46 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:46 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:46 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:46 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:10:52 --> Config Class Initialized
+DEBUG - 2013-03-05 16:10:52 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:10:52 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:10:52 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:10:52 --> URI Class Initialized
+DEBUG - 2013-03-05 16:10:52 --> Router Class Initialized
+ERROR - 2013-03-05 16:10:52 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:12 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:12 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:12 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:12 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:12 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:12 --> Router Class Initialized
+ERROR - 2013-03-05 16:11:12 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:15 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:15 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:15 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Router Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Router Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Output Class Initialized
+ERROR - 2013-03-05 16:11:15 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:15 --> Security Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Input Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:11:15 --> Language Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:15 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:15 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:11:15 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:11:15 --> Router Class Initialized
+ERROR - 2013-03-05 16:11:15 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:15 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:11:15 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:11:15 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:11:15 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:11:16 --> Session Class Initialized
+DEBUG - 2013-03-05 16:11:16 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:11:16 --> Session garbage collection performed.
+DEBUG - 2013-03-05 16:11:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:11:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:11:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:11:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:11:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:11:16 --> Total execution time: 1.5566
+DEBUG - 2013-03-05 16:11:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:21 --> Router Class Initialized
+ERROR - 2013-03-05 16:11:21 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:28 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:28 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Router Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Output Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Security Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Input Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:11:28 --> Language Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:11:28 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:11:28 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:11:28 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:11:28 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:11:28 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:11:28 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:11:29 --> Session Class Initialized
+DEBUG - 2013-03-05 16:11:29 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:11:29 --> Session routines successfully run
+DEBUG - 2013-03-05 16:11:29 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:11:29 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:29 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:30 --> Final output sent to browser
+DEBUG - 2013-03-05 16:11:30 --> Total execution time: 1.7930
+DEBUG - 2013-03-05 16:11:30 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:30 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:30 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:30 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:30 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:30 --> Router Class Initialized
+ERROR - 2013-03-05 16:11:30 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:37 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:37 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Router Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Output Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Security Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Input Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:11:37 --> Language Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:11:37 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:11:37 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:11:37 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:11:37 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:11:37 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:11:37 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:11:38 --> Session Class Initialized
+DEBUG - 2013-03-05 16:11:38 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:11:38 --> Session routines successfully run
+DEBUG - 2013-03-05 16:11:38 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:11:38 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:38 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:38 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:11:38 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:11:38 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:11:38 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:11:38 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:11:38 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:11:38 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:11:38 --> Final output sent to browser
+DEBUG - 2013-03-05 16:11:38 --> Total execution time: 1.6440
+DEBUG - 2013-03-05 16:11:42 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:42 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:42 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:42 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:42 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:42 --> Router Class Initialized
+ERROR - 2013-03-05 16:11:42 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:49 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:49 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Router Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Output Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Security Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Input Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:11:49 --> Language Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:11:49 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:11:49 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:11:49 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:11:49 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:11:49 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:11:49 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> Session Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:11:50 --> Session routines successfully run
+DEBUG - 2013-03-05 16:11:50 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-03-05 16:11:50 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:11:50 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> Helper loaded: cookie_helper
+DEBUG - 2013-03-05 16:11:50 --> Language file loaded: language/korean/tank_auth_lang.php
+DEBUG - 2013-03-05 16:11:50 --> Model Class Initialized
+DEBUG - 2013-03-05 16:11:50 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:11:50 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-03-05 16:11:50 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:11:50 --> Final output sent to browser
+DEBUG - 2013-03-05 16:11:50 --> Total execution time: 1.7250
+DEBUG - 2013-03-05 16:11:51 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:51 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:51 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:51 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:51 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:51 --> Router Class Initialized
+ERROR - 2013-03-05 16:11:51 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:11:59 --> Config Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:11:59 --> URI Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Router Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Output Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Security Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Input Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:11:59 --> Language Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:11:59 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:11:59 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:11:59 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:11:59 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:11:59 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:11:59 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Session Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:12:00 --> Session routines successfully run
+DEBUG - 2013-03-05 16:12:00 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-03-05 16:12:00 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:12:00 --> Model Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Model Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Helper loaded: cookie_helper
+DEBUG - 2013-03-05 16:12:00 --> Language file loaded: language/korean/tank_auth_lang.php
+DEBUG - 2013-03-05 16:12:00 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:12:00 --> Model Class Initialized
+DEBUG - 2013-03-05 16:12:00 --> Language file loaded: language/korean/form_validation_lang.php
+DEBUG - 2013-03-05 16:12:00 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:12:00 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:12:00 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:12:00 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-03-05 16:12:00 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:12:00 --> Final output sent to browser
+DEBUG - 2013-03-05 16:12:00 --> Total execution time: 1.8273
+DEBUG - 2013-03-05 16:12:01 --> Config Class Initialized
+DEBUG - 2013-03-05 16:12:01 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:12:01 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:12:01 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:12:01 --> URI Class Initialized
+DEBUG - 2013-03-05 16:12:01 --> Router Class Initialized
+ERROR - 2013-03-05 16:12:01 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:17 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:17 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Router Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> No URI present. Default controller set.
+DEBUG - 2013-03-05 16:13:17 --> Output Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Security Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Input Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:13:17 --> Language Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:13:17 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:13:17 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:13:18 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:13:18 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:13:18 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:13:18 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:13:19 --> Session Class Initialized
+DEBUG - 2013-03-05 16:13:19 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:13:19 --> Session garbage collection performed.
+DEBUG - 2013-03-05 16:13:19 --> Session routines successfully run
+DEBUG - 2013-03-05 16:13:19 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:13:19 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:19 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:19 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:13:19 --> File loaded: application/views/main_v.php
+DEBUG - 2013-03-05 16:13:19 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:13:19 --> Final output sent to browser
+DEBUG - 2013-03-05 16:13:19 --> Total execution time: 1.8018
+DEBUG - 2013-03-05 16:13:20 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:20 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:20 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:20 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:20 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:20 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:20 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:22 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:22 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> Router Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> Output Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> Security Class Initialized
+DEBUG - 2013-03-05 16:13:22 --> Input Class Initialized
+DEBUG - 2013-03-05 16:13:23 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:13:23 --> Language Class Initialized
+DEBUG - 2013-03-05 16:13:23 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:13:23 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:13:23 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:13:23 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:13:23 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:13:23 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:13:23 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:13:24 --> Session Class Initialized
+DEBUG - 2013-03-05 16:13:24 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:13:24 --> Session routines successfully run
+DEBUG - 2013-03-05 16:13:24 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:13:24 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:24 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:24 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:13:24 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:24 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:13:24 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:13:24 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:13:24 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:13:24 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:13:24 --> Final output sent to browser
+DEBUG - 2013-03-05 16:13:24 --> Total execution time: 1.6435
+DEBUG - 2013-03-05 16:13:25 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:25 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:25 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:25 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:25 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:25 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:25 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:27 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:27 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Router Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Output Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Security Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Input Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:13:27 --> Language Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:13:27 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:13:27 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:13:27 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:13:27 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:13:27 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:13:27 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:13:28 --> Session Class Initialized
+DEBUG - 2013-03-05 16:13:28 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:13:28 --> Session routines successfully run
+DEBUG - 2013-03-05 16:13:29 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-03-05 16:13:29 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:13:29 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Helper loaded: cookie_helper
+DEBUG - 2013-03-05 16:13:29 --> Language file loaded: language/korean/tank_auth_lang.php
+DEBUG - 2013-03-05 16:13:29 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:13:29 --> File loaded: application/views/auth/login_form.php
+DEBUG - 2013-03-05 16:13:29 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:13:29 --> Final output sent to browser
+DEBUG - 2013-03-05 16:13:29 --> Total execution time: 1.7202
+DEBUG - 2013-03-05 16:13:29 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:29 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:29 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:29 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:34 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:34 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Router Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Output Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Security Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Input Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:13:34 --> Language Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:13:34 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:13:34 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:13:34 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:13:34 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:13:34 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:13:34 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Session Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:13:35 --> Session routines successfully run
+DEBUG - 2013-03-05 16:13:35 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Config file loaded: application/config/tank_auth.php
+DEBUG - 2013-03-05 16:13:35 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:13:35 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Helper loaded: cookie_helper
+DEBUG - 2013-03-05 16:13:35 --> Language file loaded: language/korean/tank_auth_lang.php
+DEBUG - 2013-03-05 16:13:35 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:35 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:35 --> Language file loaded: language/korean/form_validation_lang.php
+DEBUG - 2013-03-05 16:13:35 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:35 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:36 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:36 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Router Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Output Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Security Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Input Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:13:36 --> Language Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:13:36 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:13:36 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:13:36 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:13:36 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:13:36 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:13:36 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:13:37 --> Session Class Initialized
+DEBUG - 2013-03-05 16:13:37 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:13:37 --> Session routines successfully run
+DEBUG - 2013-03-05 16:13:37 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:13:37 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:37 --> Model Class Initialized
+DEBUG - 2013-03-05 16:13:37 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:13:37 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:37 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:13:37 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:13:37 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:13:37 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:13:37 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:13:37 --> Final output sent to browser
+DEBUG - 2013-03-05 16:13:37 --> Total execution time: 1.6504
+DEBUG - 2013-03-05 16:13:38 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:38 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:38 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:38 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:38 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:38 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:38 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:46 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:46 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:46 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:46 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:46 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:46 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:46 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:52 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:52 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:52 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:52 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:52 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:52 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:52 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:13:56 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:56 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Router Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Output Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Security Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Input Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:13:56 --> Language Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:13:56 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:13:56 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:13:56 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:13:56 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:13:56 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:13:56 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:13:57 --> Session Class Initialized
+DEBUG - 2013-03-05 16:13:57 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:13:57 --> Session routines successfully run
+DEBUG - 2013-03-05 16:13:57 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:13:57 --> Final output sent to browser
+DEBUG - 2013-03-05 16:13:57 --> Total execution time: 1.6836
+DEBUG - 2013-03-05 16:13:57 --> Config Class Initialized
+DEBUG - 2013-03-05 16:13:58 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:13:58 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:13:58 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:13:58 --> URI Class Initialized
+DEBUG - 2013-03-05 16:13:58 --> Router Class Initialized
+ERROR - 2013-03-05 16:13:58 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:04 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:04 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:04 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Output Class Initialized
+ERROR - 2013-03-05 16:14:04 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:04 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:04 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:05 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:05 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:05 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:05 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: file_helper
+ERROR - 2013-03-05 16:14:05 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:05 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:05 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:05 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:06 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:06 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:06 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:06 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:06 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:06 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:14:06 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:14:06 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:14:06 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:14:06 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:06 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:06 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:06 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:06 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:06 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:06 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:06 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:06 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:06 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:06 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:06 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:06 --> Total execution time: 1.5925
+DEBUG - 2013-03-05 16:14:06 --> Total execution time: 1.6134
+DEBUG - 2013-03-05 16:14:06 --> Total execution time: 1.6070
+DEBUG - 2013-03-05 16:14:06 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:06 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:06 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:06 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Security Class Initialized
+ERROR - 2013-03-05 16:14:14 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:14 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:14 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: form_helper
+ERROR - 2013-03-05 16:14:14 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:14 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:14 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:14 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:15 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:15 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:15 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:15 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:16 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:14:16 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:14:16 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:14:16 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:16 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:16 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:16 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:16 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:16 --> Total execution time: 1.6340
+DEBUG - 2013-03-05 16:14:16 --> Total execution time: 1.6263
+DEBUG - 2013-03-05 16:14:16 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:16 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:16 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:16 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:19 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:19 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:19 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:19 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:19 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:19 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:19 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:25 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:25 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:25 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:25 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:25 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:25 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:25 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:27 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:27 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:27 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:27 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:27 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:27 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:27 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:27 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:27 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: file_helper
+ERROR - 2013-03-05 16:14:27 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:27 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:27 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:27 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:28 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:28 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:28 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:28 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:14:28 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:14:28 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+ERROR - 2013-03-05 16:14:28 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:14:28 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:28 --> File loaded: application/views/board/default/reply_edit_v.php
+DEBUG - 2013-03-05 16:14:28 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:28 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:28 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:28 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:28 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:28 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:28 --> Total execution time: 1.5784
+DEBUG - 2013-03-05 16:14:28 --> Total execution time: 1.5843
+DEBUG - 2013-03-05 16:14:34 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:34 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:34 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:34 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:34 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:34 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:34 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:34 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:34 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:35 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:35 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:35 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:35 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:35 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:35 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:35 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 309
+DEBUG - 2013-03-05 16:14:35 --> Language file loaded: language/korean/form_validation_lang.php
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 323
+DEBUG - 2013-03-05 16:14:35 --> XSS Filtering completed
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: fixed D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 133
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: secret D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 138
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: subject D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 146
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: password D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 165
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: tags D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 172
+ERROR - 2013-03-05 16:14:35 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 332
+ERROR - 2013-03-05 16:14:35 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 16:14:35 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 16:14:35 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:35 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:35 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:36 --> Total execution time: 1.7758
+DEBUG - 2013-03-05 16:14:37 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:37 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:37 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:37 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:37 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:37 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:37 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:37 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:37 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:37 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:37 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:37 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:38 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:38 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:38 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:38 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:38 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:38 --> Model Class Initialized
+DEBUG - 2013-03-05 16:14:38 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:14:38 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:38 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:14:38 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:14:38 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:14:38 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:14:38 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:14:38 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:38 --> Total execution time: 1.6428
+DEBUG - 2013-03-05 16:14:39 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:39 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:39 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:39 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:39 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:39 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:39 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:14:55 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:55 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Router Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Output Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Security Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Input Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:14:55 --> Language Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:14:55 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:14:55 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:14:55 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:14:55 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:14:55 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:14:55 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> Session Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:14:56 --> Session routines successfully run
+DEBUG - 2013-03-05 16:14:56 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:14:56 --> Final output sent to browser
+DEBUG - 2013-03-05 16:14:56 --> Total execution time: 1.6635
+DEBUG - 2013-03-05 16:14:56 --> Config Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:14:56 --> URI Class Initialized
+DEBUG - 2013-03-05 16:14:56 --> Router Class Initialized
+ERROR - 2013-03-05 16:14:56 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:15:00 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:00 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:00 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:00 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:00 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:00 --> Router Class Initialized
+DEBUG - 2013-03-05 16:15:00 --> Output Class Initialized
+DEBUG - 2013-03-05 16:15:01 --> Security Class Initialized
+DEBUG - 2013-03-05 16:15:01 --> Input Class Initialized
+DEBUG - 2013-03-05 16:15:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:15:01 --> Language Class Initialized
+DEBUG - 2013-03-05 16:15:01 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:15:01 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:15:01 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:15:01 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:15:01 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:15:01 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:15:01 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> Session Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:15:02 --> Session routines successfully run
+DEBUG - 2013-03-05 16:15:02 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:02 --> Final output sent to browser
+DEBUG - 2013-03-05 16:15:02 --> Total execution time: 1.6288
+DEBUG - 2013-03-05 16:15:02 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:02 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:02 --> Router Class Initialized
+ERROR - 2013-03-05 16:15:02 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:15:06 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:06 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Router Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Output Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Security Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Input Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:15:06 --> Language Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:15:06 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:15:06 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:15:06 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:15:06 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:15:06 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:15:06 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Session Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:15:07 --> Session routines successfully run
+DEBUG - 2013-03-05 16:15:07 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:07 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:07 --> Final output sent to browser
+DEBUG - 2013-03-05 16:15:07 --> Total execution time: 1.5546
+DEBUG - 2013-03-05 16:15:07 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:07 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Router Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Output Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Security Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Input Class Initialized
+DEBUG - 2013-03-05 16:15:07 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:15:08 --> Language Class Initialized
+DEBUG - 2013-03-05 16:15:08 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:15:08 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:15:08 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:15:08 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:15:08 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:15:08 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:15:08 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:15:09 --> Session Class Initialized
+DEBUG - 2013-03-05 16:15:09 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:15:09 --> Session routines successfully run
+DEBUG - 2013-03-05 16:15:09 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:15:09 --> Model Class Initialized
+DEBUG - 2013-03-05 16:15:09 --> Model Class Initialized
+DEBUG - 2013-03-05 16:15:09 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:15:09 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:09 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:15:09 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:15:09 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:15:09 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:15:09 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:15:09 --> Final output sent to browser
+DEBUG - 2013-03-05 16:15:09 --> Total execution time: 1.7512
+DEBUG - 2013-03-05 16:15:10 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:10 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:10 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:10 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:10 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:10 --> Router Class Initialized
+ERROR - 2013-03-05 16:15:10 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:15:13 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:13 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Router Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Output Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Security Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Input Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:15:13 --> Language Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:15:13 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:15:13 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:15:13 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:15:13 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:15:13 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:15:13 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:15:14 --> Session Class Initialized
+DEBUG - 2013-03-05 16:15:14 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:15:15 --> Session routines successfully run
+DEBUG - 2013-03-05 16:15:15 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:15:15 --> Model Class Initialized
+DEBUG - 2013-03-05 16:15:15 --> Model Class Initialized
+DEBUG - 2013-03-05 16:15:15 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:15:15 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:15:15 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:15:15 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:15:15 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:15:15 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:15:15 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:15:15 --> Final output sent to browser
+DEBUG - 2013-03-05 16:15:15 --> Total execution time: 1.7704
+DEBUG - 2013-03-05 16:15:16 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:16 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:16 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:16 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:16 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:16 --> Router Class Initialized
+ERROR - 2013-03-05 16:15:16 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:15:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Output Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Security Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Input Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:15:21 --> Language Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:15:21 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:15:21 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:15:21 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:15:21 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:15:21 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:15:21 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Session Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:15:22 --> Session routines successfully run
+DEBUG - 2013-03-05 16:15:22 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Model Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Model Class Initialized
+ERROR - 2013-03-05 16:15:22 --> Severity: Notice  --> Undefined property: Search::$common D:\work_php\codeigniter\branches\2.1.3\application\controllers\search.php 10
+DEBUG - 2013-03-05 16:15:22 --> Config Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:15:22 --> URI Class Initialized
+DEBUG - 2013-03-05 16:15:22 --> Router Class Initialized
+ERROR - 2013-03-05 16:15:22 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:22:03 --> Config Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:22:03 --> URI Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Router Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Output Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Security Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Input Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:22:03 --> Language Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:22:03 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:22:03 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:22:03 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:22:03 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:22:03 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:22:03 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:22:04 --> Session Class Initialized
+DEBUG - 2013-03-05 16:22:04 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:22:04 --> Session routines successfully run
+DEBUG - 2013-03-05 16:22:04 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:22:04 --> Model Class Initialized
+DEBUG - 2013-03-05 16:22:04 --> Model Class Initialized
+DEBUG - 2013-03-05 16:22:05 --> Model Class Initialized
+DEBUG - 2013-03-05 16:22:05 --> XSS Filtering completed
+ERROR - 2013-03-05 16:22:05 --> Severity: Notice  --> Undefined variable: uri_array D:\work_php\codeigniter\branches\2.1.3\application\controllers\search.php 21
+ERROR - 2013-03-05 16:22:05 --> Severity: Warning  --> array_search() expects parameter 2 to be array, null given D:\work_php\codeigniter\branches\2.1.3\application\helpers\common_helper.php 134
+ERROR - 2013-03-05 16:22:05 --> Severity: Warning  --> array_splice() expects parameter 1 to be array, null given D:\work_php\codeigniter\branches\2.1.3\application\helpers\common_helper.php 135
+ERROR - 2013-03-05 16:22:05 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\controllers\search.php 30
+ERROR - 2013-03-05 16:22:05 --> Severity: Warning  --> Illegal string offset 's_word' D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 55
+ERROR - 2013-03-05 16:22:05 --> Severity: Notice  --> Uninitialized string offset: 0 D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 55
+ERROR - 2013-03-05 16:22:05 --> Severity: Warning  --> Illegal string offset 's_word' D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 55
+ERROR - 2013-03-05 16:22:05 --> Severity: Notice  --> Uninitialized string offset: 0 D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 55
+ERROR - 2013-03-05 16:22:05 --> Severity: Warning  --> Illegal string offset 's_word' D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 19
+ERROR - 2013-03-05 16:22:05 --> Severity: Notice  --> Uninitialized string offset: 0 D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 19
+ERROR - 2013-03-05 16:22:05 --> Severity: Warning  --> Illegal string offset 's_word' D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 19
+ERROR - 2013-03-05 16:22:05 --> Severity: Notice  --> Uninitialized string offset: 0 D:\work_php\codeigniter\branches\2.1.3\application\models\search_m.php 19
+DEBUG - 2013-03-05 16:22:05 --> Config Class Initialized
+DEBUG - 2013-03-05 16:22:05 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:22:05 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:22:05 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:22:05 --> URI Class Initialized
+DEBUG - 2013-03-05 16:22:05 --> Router Class Initialized
+ERROR - 2013-03-05 16:22:05 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:22:48 --> Config Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:22:48 --> URI Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Router Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Output Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Security Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Input Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:22:48 --> Language Class Initialized
+DEBUG - 2013-03-05 16:22:48 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:22:49 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:22:49 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:22:49 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:22:49 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:22:49 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:22:49 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Session Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:22:50 --> Session routines successfully run
+DEBUG - 2013-03-05 16:22:50 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Model Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Model Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Model Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> XSS Filtering completed
+ERROR - 2013-03-05 16:22:50 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\controllers\search.php 28
+DEBUG - 2013-03-05 16:22:50 --> Config Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:22:50 --> URI Class Initialized
+DEBUG - 2013-03-05 16:22:50 --> Router Class Initialized
+ERROR - 2013-03-05 16:22:50 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:23:01 --> Config Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:23:01 --> URI Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Router Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Output Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Security Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Input Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:23:01 --> Language Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:23:01 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:23:01 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:23:01 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:23:01 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:23:01 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:23:01 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Session Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:23:02 --> Session routines successfully run
+DEBUG - 2013-03-05 16:23:02 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Model Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Model Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Model Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:23:02 --> Config Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:23:02 --> URI Class Initialized
+DEBUG - 2013-03-05 16:23:02 --> Router Class Initialized
+ERROR - 2013-03-05 16:23:02 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:27:11 --> Config Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:27:12 --> URI Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Router Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Output Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Security Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Input Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:27:12 --> Language Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:27:12 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:27:12 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:27:12 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:27:12 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:27:12 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:27:12 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Session Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:27:13 --> Session routines successfully run
+DEBUG - 2013-03-05 16:27:13 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Model Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Model Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Model Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> XSS Filtering completed
+ERROR - 2013-03-05 16:27:13 --> Severity: Notice  --> Undefined variable: uri_array D:\work_php\codeigniter\branches\2.1.3\application\controllers\search.php 21
+ERROR - 2013-03-05 16:27:13 --> Severity: Warning  --> array_search() expects parameter 2 to be array, null given D:\work_php\codeigniter\branches\2.1.3\application\helpers\common_helper.php 134
+ERROR - 2013-03-05 16:27:13 --> Severity: Warning  --> array_splice() expects parameter 1 to be array, null given D:\work_php\codeigniter\branches\2.1.3\application\helpers\common_helper.php 135
+ERROR - 2013-03-05 16:27:13 --> Severity: Notice  --> Undefined variable: url D:\work_php\codeigniter\branches\2.1.3\application\views\board\search_v.php 10
+ERROR - 2013-03-05 16:27:13 --> Severity: Notice  --> Undefined variable: search_sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\search_v.php 109
+DEBUG - 2013-03-05 16:27:13 --> File loaded: application/views/board/search_v.php
+DEBUG - 2013-03-05 16:27:13 --> Final output sent to browser
+DEBUG - 2013-03-05 16:27:13 --> Total execution time: 1.7561
+DEBUG - 2013-03-05 16:27:13 --> Config Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:27:13 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:27:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:27:14 --> Router Class Initialized
+ERROR - 2013-03-05 16:27:14 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:28:12 --> Config Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:28:12 --> URI Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Router Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Output Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Security Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Input Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:28:12 --> Language Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:28:12 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:28:13 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:28:13 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:28:13 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:28:13 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:28:13 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Session Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:28:14 --> Session routines successfully run
+DEBUG - 2013-03-05 16:28:14 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Model Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Model Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Model Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> XSS Filtering completed
+ERROR - 2013-03-05 16:28:14 --> Severity: Notice  --> Undefined variable: url D:\work_php\codeigniter\branches\2.1.3\application\views\board\search_v.php 10
+ERROR - 2013-03-05 16:28:14 --> Severity: Notice  --> Undefined variable: search_sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\search_v.php 109
+DEBUG - 2013-03-05 16:28:14 --> File loaded: application/views/board/search_v.php
+DEBUG - 2013-03-05 16:28:14 --> Final output sent to browser
+DEBUG - 2013-03-05 16:28:14 --> Total execution time: 1.6445
+DEBUG - 2013-03-05 16:28:14 --> Config Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:28:14 --> URI Class Initialized
+DEBUG - 2013-03-05 16:28:14 --> Router Class Initialized
+ERROR - 2013-03-05 16:28:14 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:28:51 --> Config Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:28:51 --> URI Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Router Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Output Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Security Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Input Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:28:51 --> Language Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:28:51 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:28:51 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:28:51 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:28:51 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:28:51 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:28:51 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:28:52 --> Session Class Initialized
+DEBUG - 2013-03-05 16:28:52 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:28:52 --> Session routines successfully run
+DEBUG - 2013-03-05 16:28:52 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:28:52 --> Model Class Initialized
+DEBUG - 2013-03-05 16:28:52 --> Model Class Initialized
+DEBUG - 2013-03-05 16:28:52 --> Model Class Initialized
+DEBUG - 2013-03-05 16:28:52 --> XSS Filtering completed
+ERROR - 2013-03-05 16:28:52 --> Severity: Notice  --> Undefined variable: url D:\work_php\codeigniter\branches\2.1.3\application\views\board\search_v.php 10
+DEBUG - 2013-03-05 16:28:52 --> File loaded: application/views/board/search_v.php
+DEBUG - 2013-03-05 16:28:52 --> Final output sent to browser
+DEBUG - 2013-03-05 16:28:52 --> Total execution time: 1.6392
+DEBUG - 2013-03-05 16:28:53 --> Config Class Initialized
+DEBUG - 2013-03-05 16:28:53 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:28:53 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:28:53 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:28:53 --> URI Class Initialized
+DEBUG - 2013-03-05 16:28:53 --> Router Class Initialized
+ERROR - 2013-03-05 16:28:53 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:29:47 --> Config Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:29:47 --> URI Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Router Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Output Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Security Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Input Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:29:47 --> Language Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:29:47 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:29:47 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:29:47 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:29:47 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:29:47 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:29:47 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:29:48 --> Session Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:29:49 --> Session routines successfully run
+DEBUG - 2013-03-05 16:29:49 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Model Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Model Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Model Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:29:49 --> XSS Filtering completed
+ERROR - 2013-03-05 16:29:49 --> Severity: Notice  --> Undefined variable: url D:\work_php\codeigniter\branches\2.1.3\application\views\board\search_v.php 10
+DEBUG - 2013-03-05 16:29:49 --> File loaded: application/views/board/search_v.php
+DEBUG - 2013-03-05 16:29:49 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:29:49 --> Final output sent to browser
+DEBUG - 2013-03-05 16:29:49 --> Total execution time: 1.6797
+DEBUG - 2013-03-05 16:29:49 --> Config Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:29:49 --> URI Class Initialized
+DEBUG - 2013-03-05 16:29:49 --> Router Class Initialized
+ERROR - 2013-03-05 16:29:49 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:29:55 --> Config Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:29:55 --> URI Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Router Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Output Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Security Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Input Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:29:55 --> Language Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:29:55 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:29:55 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:29:55 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:29:56 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:29:56 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:29:56 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:29:57 --> Session Class Initialized
+DEBUG - 2013-03-05 16:29:57 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:29:57 --> Session garbage collection performed.
+DEBUG - 2013-03-05 16:29:57 --> Session routines successfully run
+DEBUG - 2013-03-05 16:29:57 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:29:57 --> Model Class Initialized
+DEBUG - 2013-03-05 16:29:57 --> Model Class Initialized
+DEBUG - 2013-03-05 16:29:57 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:29:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:29:57 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:29:57 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:29:57 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:29:57 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:29:57 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:29:57 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:29:57 --> Final output sent to browser
+DEBUG - 2013-03-05 16:29:57 --> Total execution time: 1.6701
+DEBUG - 2013-03-05 16:29:58 --> Config Class Initialized
+DEBUG - 2013-03-05 16:29:58 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:29:58 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:29:58 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:29:58 --> URI Class Initialized
+DEBUG - 2013-03-05 16:29:58 --> Router Class Initialized
+ERROR - 2013-03-05 16:29:58 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:09 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:09 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Router Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Output Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Security Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Input Class Initialized
+DEBUG - 2013-03-05 16:30:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:30:09 --> Language Class Initialized
+DEBUG - 2013-03-05 16:30:10 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:30:10 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:30:10 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:30:10 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:30:10 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:30:10 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:30:10 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Session Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:30:11 --> Session routines successfully run
+DEBUG - 2013-03-05 16:30:11 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:30:11 --> XSS Filtering completed
+ERROR - 2013-03-05 16:30:11 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 16:30:11 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 16:30:11 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 16:30:11 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+ERROR - 2013-03-05 16:30:11 --> Severity: Notice  --> Undefined variable: sfl D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\lists_v.php 173
+DEBUG - 2013-03-05 16:30:11 --> File loaded: application/views/board/default/lists_v.php
+DEBUG - 2013-03-05 16:30:11 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:30:11 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:30:11 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:30:11 --> Final output sent to browser
+DEBUG - 2013-03-05 16:30:11 --> Total execution time: 1.7102
+DEBUG - 2013-03-05 16:30:11 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:11 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:11 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:11 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:13 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:13 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Router Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> No URI present. Default controller set.
+DEBUG - 2013-03-05 16:30:13 --> Output Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Security Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Input Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:30:13 --> Language Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:30:13 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:30:13 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:30:13 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:30:13 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:30:13 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:30:13 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:30:14 --> Session Class Initialized
+DEBUG - 2013-03-05 16:30:14 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:30:14 --> Session routines successfully run
+DEBUG - 2013-03-05 16:30:14 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:30:14 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:14 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:14 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:30:14 --> File loaded: application/views/main_v.php
+DEBUG - 2013-03-05 16:30:14 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:30:14 --> Final output sent to browser
+DEBUG - 2013-03-05 16:30:14 --> Total execution time: 1.7024
+DEBUG - 2013-03-05 16:30:15 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:15 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:15 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:15 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:15 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:15 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:15 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:19 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:19 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Router Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Output Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Security Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Input Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:30:19 --> Language Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:30:19 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:30:19 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:30:20 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:30:20 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:30:20 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:30:20 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:30:21 --> Session Class Initialized
+DEBUG - 2013-03-05 16:30:21 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:30:21 --> Session routines successfully run
+DEBUG - 2013-03-05 16:30:21 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:30:21 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:21 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:21 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:30:21 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:30:21 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:30:21 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:30:21 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:30:21 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:30:21 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:30:21 --> Final output sent to browser
+DEBUG - 2013-03-05 16:30:21 --> Total execution time: 1.7267
+DEBUG - 2013-03-05 16:30:22 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:22 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:22 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:22 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:22 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:22 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:22 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:30 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:30 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Router Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Output Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Security Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Input Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:30:30 --> Language Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:30:30 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:30:30 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:30:30 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:30:30 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:30:30 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:30:30 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:30:31 --> Session Class Initialized
+DEBUG - 2013-03-05 16:30:31 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:30:31 --> Session routines successfully run
+DEBUG - 2013-03-05 16:30:31 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:30:31 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:31 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:31 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:30:31 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:30:31 --> Model Class Initialized
+DEBUG - 2013-03-05 16:30:31 --> Form Validation Class Initialized
+ERROR - 2013-03-05 16:30:31 --> Severity: Notice  --> Undefined index: userfile D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 422
+ERROR - 2013-03-05 16:30:31 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\views\board\default\write_v.php 43
+DEBUG - 2013-03-05 16:30:31 --> File loaded: application/views/board/default/write_v.php
+ERROR - 2013-03-05 16:30:31 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 16:30:31 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 16:30:31 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:30:32 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:30:32 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:30:32 --> Final output sent to browser
+DEBUG - 2013-03-05 16:30:32 --> Total execution time: 1.7853
+DEBUG - 2013-03-05 16:30:32 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:32 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:32 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:32 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:32 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:32 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:32 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:43 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:43 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:43 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:44 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:44 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:44 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:44 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:49 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:49 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:49 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:49 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:49 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:49 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:49 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:30:57 --> Config Class Initialized
+DEBUG - 2013-03-05 16:30:57 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:30:57 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:30:57 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:30:57 --> URI Class Initialized
+DEBUG - 2013-03-05 16:30:57 --> Router Class Initialized
+ERROR - 2013-03-05 16:30:57 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:31:03 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:03 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:03 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:03 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:03 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:03 --> Router Class Initialized
+ERROR - 2013-03-05 16:31:03 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:31:17 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:17 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:17 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:17 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:17 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Router Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Output Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Security Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Input Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:31:18 --> Language Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:31:18 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:31:18 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:31:18 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:31:18 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:31:18 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:31:18 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Session Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:31:19 --> Session routines successfully run
+DEBUG - 2013-03-05 16:31:19 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:31:19 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2013-03-05 16:31:19 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Language file loaded: language/korean/form_validation_lang.php
+ERROR - 2013-03-05 16:31:19 --> Severity: Notice  --> Undefined variable: file_error D:\work_php\codeigniter\branches\2.1.3\application\controllers\board.php 439
+DEBUG - 2013-03-05 16:31:19 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:31:19 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:31:19 --> XSS Filtering completed
+ERROR - 2013-03-05 16:31:19 --> Severity: Notice  --> Undefined index: fixed D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 21
+ERROR - 2013-03-05 16:31:19 --> Severity: Notice  --> Undefined index: secret D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 26
+ERROR - 2013-03-05 16:31:19 --> Severity: Notice  --> Undefined index: password D:\work_php\codeigniter\branches\2.1.3\application\models\board_m.php 56
+DEBUG - 2013-03-05 16:31:19 --> Email Class Initialized
+DEBUG - 2013-03-05 16:31:19 --> Language file loaded: language/korean/email_lang.php
+ERROR - 2013-03-05 16:31:19 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/,./data/db_cache/rss+index/):  D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+ERROR - 2013-03-05 16:31:19 --> Severity: Warning  --> opendir(./data/db_cache/rss+index/): failed to open dir: No such file or directory D:\work_php\codeigniter\branches\2.1.3\system\helpers\file_helper.php 126
+DEBUG - 2013-03-05 16:31:19 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:31:19 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:31:19 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:31:20 --> Final output sent to browser
+DEBUG - 2013-03-05 16:31:20 --> Total execution time: 2.0482
+DEBUG - 2013-03-05 16:31:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:21 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Router Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Router Class Initialized
+ERROR - 2013-03-05 16:31:21 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:31:21 --> Output Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Security Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Input Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:31:21 --> Language Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:31:21 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:31:21 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:31:21 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:31:22 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:31:22 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:31:22 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:31:23 --> Session Class Initialized
+DEBUG - 2013-03-05 16:31:23 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:31:23 --> Session routines successfully run
+DEBUG - 2013-03-05 16:31:23 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:31:23 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:23 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:23 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:31:23 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:31:23 --> Form Validation Class Initialized
+DEBUG - 2013-03-05 16:31:23 --> File loaded: application/views/board/default/view_v.php
+DEBUG - 2013-03-05 16:31:23 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:31:23 --> Language file loaded: language/korean/profiler_lang.php
+DEBUG - 2013-03-05 16:31:23 --> Helper loaded: text_helper
+DEBUG - 2013-03-05 16:31:23 --> Final output sent to browser
+DEBUG - 2013-03-05 16:31:23 --> Total execution time: 1.6601
+DEBUG - 2013-03-05 16:31:24 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:24 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:24 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:24 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:24 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:24 --> Router Class Initialized
+ERROR - 2013-03-05 16:31:24 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:31:33 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:34 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:34 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Router Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Router Class Initialized
+ERROR - 2013-03-05 16:31:34 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-03-05 16:31:34 --> Output Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Security Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Input Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:31:34 --> Language Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:31:34 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:31:34 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:31:34 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:31:34 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:31:34 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:31:34 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:31:35 --> Session Class Initialized
+DEBUG - 2013-03-05 16:31:35 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:31:35 --> Session routines successfully run
+DEBUG - 2013-03-05 16:31:35 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:31:35 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:31:35 --> XSS Filtering completed
+DEBUG - 2013-03-05 16:31:35 --> Final output sent to browser
+DEBUG - 2013-03-05 16:31:35 --> Total execution time: 1.5937
+DEBUG - 2013-03-05 16:31:52 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:52 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:52 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:52 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:52 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> Router Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> No URI present. Default controller set.
+DEBUG - 2013-03-05 16:31:53 --> Output Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> Security Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> Input Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-03-05 16:31:53 --> Language Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> Loader Class Initialized
+DEBUG - 2013-03-05 16:31:53 --> Helper loaded: url_helper
+DEBUG - 2013-03-05 16:31:53 --> Helper loaded: file_helper
+DEBUG - 2013-03-05 16:31:53 --> Helper loaded: form_helper
+DEBUG - 2013-03-05 16:31:53 --> Helper loaded: common_helper
+DEBUG - 2013-03-05 16:31:53 --> Helper loaded: alert_helper
+DEBUG - 2013-03-05 16:31:53 --> Database Driver Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> Session Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> Helper loaded: string_helper
+DEBUG - 2013-03-05 16:31:54 --> Session routines successfully run
+DEBUG - 2013-03-05 16:31:54 --> Controller Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> Model Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> File loaded: application/views/top_v.php
+DEBUG - 2013-03-05 16:31:54 --> File loaded: application/views/main_v.php
+DEBUG - 2013-03-05 16:31:54 --> File loaded: application/views/bottom_v.php
+DEBUG - 2013-03-05 16:31:54 --> Final output sent to browser
+DEBUG - 2013-03-05 16:31:54 --> Total execution time: 2.0669
+DEBUG - 2013-03-05 16:31:54 --> Config Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> Hooks Class Initialized
+DEBUG - 2013-03-05 16:31:54 --> Utf8 Class Initialized
+DEBUG - 2013-03-05 16:31:55 --> UTF-8 Support Enabled
+DEBUG - 2013-03-05 16:31:55 --> URI Class Initialized
+DEBUG - 2013-03-05 16:31:55 --> Router Class Initialized
+ERROR - 2013-03-05 16:31:55 --> 404 Page Not Found --> favicon.ico

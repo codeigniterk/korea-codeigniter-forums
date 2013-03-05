@@ -113,7 +113,7 @@ if( $this->session->userdata('user_id') )
 else
 {
 		$rpath = str_replace("index.php/", "", $this->input->server('PHP_SELF'));
-		$rpath_encode = base64_encode($rpath);
+		$rpath_encode = url_code($rpath, 'e');
 ?>
 		<a href='/auth/register'>회원 가입</a>&nbsp;
 		<a href='/auth/forgot_password'>아이디/비밀번호 찾기</a>&nbsp;

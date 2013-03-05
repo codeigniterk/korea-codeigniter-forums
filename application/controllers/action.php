@@ -241,13 +241,14 @@ foreach ($qer->result_array() as $row)
 		$module_no = $this->input->post('module_no', true);
 		$table = $this->input->post('table', true);
 		$file_table = $this->input->post('file_table', true);
+		$file_no = $this->uri->segment(3);
 
 		$u_no=$this->db->get_where($table, array('no'=>$module_no));
 		$row=$u_no->row();
 
 		if($row->user_id == $this->session->userdata('userid'))
 		{
-			$this->db->delete($file_table, array('module_name' => $table, 'module_no' => $module_no));
+			$this->db->delete($file_table, array('module_name' => $table, 'no' => $file_no));
 			echo "1";
 		}
 		else

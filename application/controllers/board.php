@@ -40,14 +40,23 @@ class Board extends CI_Controller {
 	{
 		$data = array();
 		if($this->uri->segment(2) == 'view') {
-			$data['views'] = $this->board_m->board_view($this->uri->segment(3), 'view');
+			$data['views'] = $this->board_m->board_view($this->uri->segment(3), '');
 		}
-		$this->load->view('top_v', $data);
+
+		if($this->uri->segment(2) != 'reply_edit')
+		{
+			$this->load->view('top_v', $data);
+		}
+
 		if( method_exists($this, $method) )
 		{
 			$this->{"{$method}"}();
 		}
-		$this->load->view('bottom_v');
+
+		if($this->uri->segment(2) != 'reply_edit')
+		{
+			$this->load->view('bottom_v');
+		}
 	}
 
 	function index()
@@ -299,7 +308,7 @@ class Board extends CI_Controller {
 
 			if(@$_FILES['userfile']['name'])
 			{
-				$config['upload_path'] = DATA_ROOT.'/files/';
+				$config['upload_path'] = './data/files/';
 				$config['allowed_types'] = 'zip|rar|doc|hwp|pdf|ppt|xls|pptx|docx|xlsx';
 				$config['max_size']	= '2000';
 				$config['max_width']  = '1024';
@@ -313,15 +322,15 @@ class Board extends CI_Controller {
 
 			if ($this->form_validation->run() == FALSE || @$file_error)
 			{
-				$this->load->view('board/'.MENU_SKIN.'/reply_edit', $data);
+				$this->load->view('board/'.MENU_SKIN.'/reply_edit_v', $data);
 			}
 			else
 			{
-				$this->board_m->update_board($this->uri->segment(3), $_POST);
+				$this->board_m->update_board($this->uri->segment(3), $this->input->post(NULL, TRUE));
 
 				//file upload
-				if(@$_FILES['userfile']['name']) {
-
+				if(@$_FILES['userfile']['name'])
+				{
 					$daf =$this->upload->data();
 					$dat_arr3 = array(
 						'module_id'=> MENU_ID,
