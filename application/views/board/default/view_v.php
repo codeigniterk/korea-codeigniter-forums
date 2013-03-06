@@ -341,20 +341,6 @@ if ($this->session->userdata('userid'))
 {
 ?>
 		<a href="/<?php echo  $this->seg_exp[0] ?>/write/0" id="btn_list" ><span>&nbsp;&nbsp;글쓰기&nbsp;&nbsp;</span></a>
-		<script>
-		$(".write_post").click(function(){
-			jQuery.FrameDialog
-				.create({
-					url: '/<?php echo  $this->seg_exp[0] ?>/write/0',
-					title: '글쓰기',
-					width : 820,
-					height : 600,
-					draggable : false,
-					resizable : false,
-					buttons: { "닫기": function() { $(this).dialog("close"); } }
-				})
-		});
-		</script>
 <?php
 }
 ?>
