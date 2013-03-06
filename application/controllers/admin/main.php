@@ -135,7 +135,7 @@ class Main extends CI_Controller {
 
 		if ($this->form_validation->run() == FALSE)
 		{
-			$this->load->view('admin/member/master_add_v');
+			$this->load->view('admin/master_add_v');
 		}
 		else
 		{
@@ -246,6 +246,6 @@ class Main extends CI_Controller {
 
 }
 
-/* End of file member.php */
-/* Location:  /application/controllers/admin/member.php */
+/* End of file main.php */
+/* Location:  /application/controllers/admin/main.php */
 ?>

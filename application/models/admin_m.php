@@ -51,22 +51,33 @@ class Admin_m extends CI_Model {
 		return $q->result_array();
 	}
 
-	function getTotalData($mode, $search_word, $offset, $per_page) {
-		if( $search_word =='all_keyword' ) {
+	function getTotalData($mode, $search_word, $offset, $per_page)
+	{
+		if( $search_word =='all_keyword' )
+		{
 			$search_qry = "";
-		} else {
+		}
+		else
+		{
 			$search_qry = "and (userid like '%".$search_word."%' or username like '%".$search_word."%'  or nickname like '%".$search_word."%' or email like '%".$search_word."%' or auth_code like '%".$search_word."%') ";
 		}
-		if($mode =='master') {
+
+		if($mode =='master')
+		{
 			$sse = "(auth_code = 'ADMIN') and ";
-		} elseif($mode =='member') {
+		}
+		elseif($mode =='member')
+		{
 			$sse = "(auth_code = 'USER') and ";
-		} else {
+		}
+		else
+		{
 			$sse = "";
 		}
-		$sql = "SELECT id FROM users WHERE ".$sse." 1=1  ".$search_qry." ";
 
+		$sql = "SELECT id FROM users WHERE ".$sse." 1=1  ".$search_qry." ";
 		$q=$this->db->query($sql);
+
 		return $q->num_rows();
 	}
 
@@ -99,6 +110,44 @@ class Admin_m extends CI_Model {
 		$bb=$this->db->insert('user_profiles', $data1);
 
         return $aa;
+	}
+
+	//게시판 리스트
+	function board_list($mode, $search_word, $offset, $per_page)
+	{
+		if( $search_word )
+		{
+			$search_qry = "and (name like '%".$search_word."%' or name_en like '%".$search_word."%') ";
+		}
+		else
+		{
+			$search_qry = "";
+		}
+
+		$sql = "SELECT * FROM board_list WHERE 1=1 ".$search_qry." ORDER BY no DESC limit ".$offset.", ".$per_page;
+
+		$q=$this->db->query($sql);
+
+		return $q->result_array();
+	}
+
+	function board_list_count($mode, $search_word, $offset, $per_page)
+	{
+		if( $search_word =='all_keyword' )
+		{
+			$search_qry = "";
+		}
+		else
+		{
+			$search_qry = "and (name like '%".$search_word."%' or name_en like '%".$search_word."%') ";
+		}
+
+
+		$sql = "SELECT no FROM board_list WHERE 1=1  ".$search_qry;
+
+		$q=$this->db->query($sql);
+
+		return $q->num_rows();
 	}
 
 }

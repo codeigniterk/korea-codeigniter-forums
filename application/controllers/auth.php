@@ -187,11 +187,7 @@ class Auth extends CI_Controller
 	function logout()
 	{
 		$this->tank_auth->logout();
-		?>
-		<script>
-		alert("<?php echo $this->lang->line('auth_message_logged_out')?>");
-		</script>
-		<?php
+		alert($this->lang->line('auth_message_logged_out'), '/');
 		redirect('', 'refresh');
 	}
 
