@@ -11,7 +11,7 @@
 		<td  width="60%" colspan="3">
 		<select name="auth_type">
 			<option value="15" selected>운영자</option>
-			<option value="7" selected>포럼개발자</option>
+			<option value="7">포럼개발자</option>
 		</select>
 		</td>
 	</tr>

@@ -18,6 +18,12 @@ class Admin_m extends CI_Model {
 		return $query->num_rows();
     }
 
+	function name_check($ju) //게시판 영문명 중복 체크
+    {
+        $query = $this->db->get_where('board_list', array('name_en' => 'board_'.$ju));
+		return $query->num_rows();
+    }
+
 	function member_list($mode, $search_word, $offset, $per_page)
 	{
 		if( $search_word )
@@ -148,6 +154,22 @@ class Admin_m extends CI_Model {
 		$q=$this->db->query($sql);
 
 		return $q->num_rows();
+	}
+
+	//게시판 추가
+	function board_add($post)
+	{
+		$data = array(
+				'name' => $post['name'] ,
+                'name_en' => 'board_'.$post['name_en'] ,
+				'enable' => $post['enable'] ,
+                'permission' => $post['per1']."|".$post['per2']."|".$post['per3']."|".$post['per4'],
+				'skin' => $post['skin'],
+				'reg_date' =>  date("Y-m-d H:i:s")
+            );
+		$aa=$this->db->insert('board_list', $data);
+
+        return $aa;
 	}
 
 }

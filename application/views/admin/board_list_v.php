@@ -6,7 +6,7 @@ $(function(){
 			url: '/admin/main/board_add',
 			title: '게시판 추가',
 			width : 810,
-			height : 450,
+			height : 250,
 			draggable : false,
 			resizable : false,
 			buttons: { "닫기": function() { $(this).dialog("close"); } }

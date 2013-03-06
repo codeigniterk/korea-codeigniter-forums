@@ -143,15 +143,64 @@ class Main extends CI_Controller {
 			{
 				$this->admin_m->master_add($this->input->post(NULL, true)); //운영자 추가 함수
 ?>
-				<script type="text/javascript"  src="<?=JS_DIR?>/jquery-1.3.2.min.js"></script>
-				<script type="text/javascript"  src="<?=JS_DIR?>/jquery.framedialog.js"></script>
+				<script type="text/javascript"  src="<?php echo JS_DIR?>/jquery-1.3.2.min.js"></script>
+				<script type="text/javascript"  src="<?php echo JS_DIR?>/jquery.framedialog.js"></script>
 				<script>
 					//FrameDialog 닫기
 					$(document).ready(function() { jQuery.FrameDialog.closeDialog(); });
-					alert('입력되었습니다.')
-					document.opener.reload();
+					alert('입력되었습니다.');
+					parent.document.location.reload();
 				</script>
 <?php
+			}
+		}
+	}
+
+	function board_add()  //게시판 추가, 삭제
+	{
+		$this->load->library('form_validation');
+		//폼검증 규칙 설정
+		$config = array(
+			array(
+				'field'   => 'name',
+				'label'   => '게시판명',
+				'rules'   => 'required|max_length[30]'
+				),
+		    array(
+				'field'   => 'name_en',
+				'label'   => '게시판 영문명',
+				'rules'   => 'callback_name_check'
+				)
+		);
+
+		$this->form_validation->set_rules($config);
+
+		if ($this->form_validation->run() == FALSE)
+		{
+			$this->load->view('admin/board_add_v');
+		}
+		else
+		{
+			if( $this->input->post('status_mode') == 'insert' )
+			{
+				$result = $this->admin_m->board_add($this->input->post(NULL, true));
+				if($result)
+				{
+?>
+					<script type="text/javascript"  src="<?php echo JS_DIR?>/jquery-1.3.2.min.js"></script>
+					<script type="text/javascript"  src="<?php echo JS_DIR?>/jquery.framedialog.js"></script>
+					<script>
+						//FrameDialog 닫기
+						alert('입력되었습니다.');
+						$(document).ready(function() { jQuery.FrameDialog.closeDialog(); });
+						parent.document.location.reload();
+					</script>
+<?php
+				}
+				else
+				{
+					alert('입력하지 못했습니다.', '');
+				}
 			}
 			elseif( $this->input->post('status_mode') == 'delete' )
 			{
@@ -217,6 +266,36 @@ class Main extends CI_Controller {
 		if ($str > 0)
 		{
 			$this->form_validation->set_message('nick_check', '중복된 닉네임입니다.');
+			return FALSE;
+		}
+		else
+		{
+			return TRUE;
+		}
+	}
+
+	//게시판 영문명 체크 콜백
+	function name_check($ju)
+	{
+		if (!$ju)
+		{
+			$this->form_validation->set_message('name_check', '게시판 영문명을 입력하세요.');
+			return FALSE;
+			exit;
+		}
+
+		if (strlen($ju) < 2 or strlen($ju) > 30)
+		{
+			$this->form_validation->set_message('name_check', '게시판 영문명은 2자이상 30자이하로 입력하세요.');
+			return FALSE;
+			exit;
+		}
+
+		$str = $this->admin_m->name_check($ju);
+
+		if ($str > 0)
+		{
+			$this->form_validation->set_message('name_check', '중복된 게시판 영문명입니다.');
 			return FALSE;
 		}
 		else
