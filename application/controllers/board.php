@@ -32,7 +32,7 @@ class Board extends CI_Controller {
 
 		//common helper
 		$this->seg_exp = segment_explode($this->uri->uri_string());
-		$this->output->enable_profiler(true);
+		$this->output->enable_profiler(false);
 	}
 
 	//헤더, 푸터 자동삽입

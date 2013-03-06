@@ -50,12 +50,12 @@ class Main extends CI_Controller {
 
 		if( $this->input->post('search_word', true) )
 		{
-			$data['mlist'] = $this->admin_m->master_list('all', $this->input->post('search_word'), $offset, $config['per_page']); //운영자 리스트
+			$data['mlist'] = $this->admin_m->member_list('all', $this->input->post('search_word'), $offset, $config['per_page']); //운영자 리스트
 			$data['getTotalData']=$config['total_rows']=$this->admin_m->getTotalData('all', $this->input->post('search_word'), $offset, $config['per_page']);
 		}
 		else
 		{
-			$data['mlist'] = $this->admin_m->master_list('all', '', $offset, $config['per_page']); //운영자 리스트
+			$data['mlist'] = $this->admin_m->member_list('all', '', $offset, $config['per_page']); //운영자 리스트
 			$data['getTotalData']=$config['total_rows']=$this->admin_m->getTotalData('all', 'all_keyword', '', '');
 		}
 
@@ -64,7 +64,38 @@ class Main extends CI_Controller {
 
 		$this->load->view('top_v');
 		$this->load->view('admin/topnav_v');
-		$this->load->view('admin/member/member_v', $data);
+		$this->load->view('admin/member_v', $data);
+		$this->load->view('bottom_v');
+	}
+
+	//게시판 리스트
+	function board()
+	{
+		$this->load->library('pagination');
+		$config['page_query_string']=FALSE;
+
+		$config['uri_segment'] = 4;
+		$data['perPage']=$config['per_page']='15'; //페이지당 리스트 노출갯수
+		$config['base_url']=site_url('admin/main/board/'); //페이징처리 링크주소
+		$page=$offset = $this->uri->segment(4, 0);
+
+		if( $this->input->post('search_word', true) )
+		{
+			$data['mlist'] = $this->admin_m->board_list('all', $this->input->post('search_word'), $offset, $config['per_page']);
+			$data['getTotalData']=$config['total_rows']=$this->admin_m->board_list_count('all', $this->input->post('search_word'), $offset, $config['per_page']);
+		}
+		else
+		{
+			$data['mlist'] = $this->admin_m->board_list('all', '', $offset, $config['per_page']);
+			$data['getTotalData']=$config['total_rows']=$this->admin_m->board_list_count('all', 'all_keyword', '', '');
+		}
+
+		$this->pagination->initialize($config);
+		$data['pagenav'] = $this->pagination->create_links();
+
+		$this->load->view('top_v');
+		$this->load->view('admin/topnav_v');
+		$this->load->view('admin/board_list_v', $data);
 		$this->load->view('bottom_v');
 	}
 
@@ -191,6 +222,25 @@ class Main extends CI_Controller {
 		else
 		{
 			return TRUE;
+		}
+	}
+
+	//스패머 강제탈퇴
+	function banned()
+	{
+		$bann_id = $this->uri->segment(4);
+
+		if( $this->session->userdata('auth_code') >= 15 )
+		{
+			$arr = array(
+				'password' => 'fsdfsdfs',
+				'activated' => '0',
+				'banned' => '1',
+				'ban_reason' => 'speamer-작업자 : '.$this->session->userdata('nickname')
+			);
+			$this->db->where('id', $bann_id);
+			$this->db->update('users', $arr);
+			alert_close("강제탈퇴 완료");
 		}
 	}
 

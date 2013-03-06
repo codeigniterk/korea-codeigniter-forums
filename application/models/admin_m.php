@@ -18,7 +18,7 @@ class Admin_m extends CI_Model {
 		return $query->num_rows();
     }
 
-	function master_list($mode, $search_word, $offset, $per_page)
+	function member_list($mode, $search_word, $offset, $per_page)
 	{
 		if( $search_word )
 		{
@@ -42,7 +42,7 @@ class Admin_m extends CI_Model {
 			$sse = "";
 		}
 
-		$sql = "SELECT id as user_no, auth_code, userid, nickname, email, username, created, last_ip
+		$sql = "SELECT id as user_no, auth_code, userid, nickname, email, username, created, last_ip, banned
 		FROM users WHERE ".$sse." 1=1 ".$search_qry."
 		ORDER BY id DESC limit ".$offset.", ".$per_page." ";
 
@@ -72,10 +72,19 @@ class Admin_m extends CI_Model {
 
 	function master_add($post)
 	{
+		//tank_auth 비밀번호 생성
+		require_once('application/libraries/phpass-0.1/PasswordHash.php');
+
+		define('PHPASS_HASH_STRENGTH', 8);
+		define('PHPASS_HASH_PORTABLE', FALSE);
+
+		$hasher = new PasswordHash(PHPASS_HASH_STRENGTH, PHPASS_HASH_PORTABLE);
+		$hashed_password = $hasher->HashPassword($post['user_pw']);
+
 		$data = array(
 				'userid' => $post['user_id'] ,
                 'username' => $post['user_nm'] ,
-				'password' => md5($post['user_pw']) ,
+				'password' => $hashed_password ,
                 'email' => $post['user_email'],
 				'nickname' => $post['user_nickname'],
 				'auth_code' => $post['auth_type'],
