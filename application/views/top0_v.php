@@ -5,13 +5,13 @@
 <meta name="description" content="CodeIgniter 한국사용자포럼"/>
 <meta name="keywords" content="CodeIgniter, 한국사용자포럼"/>
 <meta name="author" content="author"/>
-<link rel="stylesheet" type="text/css" href="<?=CSS_DIR?>/default.css" media="screen"/>
-<link href="<?=CSS_DIR?>/jquery-ui-1.7.1.custom.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="<?=JS_DIR?>/common.js"></script>
-<script type="text/javascript" src="<?= JS_DIR ?>/jquery-1.3.2.min.js"></script>
-<script type="text/javascript"  src="<?=JS_DIR?>/jquery-ui-1.7.1.custom.min.js"></script>
-<script type="text/javascript"  src="<?=JS_DIR?>/jquery.framedialog.js"></script>
-<script type="text/javascript" src="<?=JS_DIR?>/jquery.jScale.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo CSS_DIR?>/default.css" media="screen"/>
+<link href="<?php echo CSS_DIR?>/jquery-ui-1.7.1.custom.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="<?php echo JS_DIR?>/common.js"></script>
+<script type="text/javascript" src="<?php echo JS_DIR?>/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="<?php echo JS_DIR?>/jquery-ui-1.7.1.custom.min.js"></script>
+<script type="text/javascript" src="<?php echo JS_DIR?>/jquery.framedialog.js"></script>
+<script type="text/javascript" src="<?php echo JS_DIR?>/jquery.jScale.js"></script>
 <title>CodeIgniter 한국사용자포럼</title>
 </head>
 

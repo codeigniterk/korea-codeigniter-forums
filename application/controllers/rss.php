@@ -1,18 +1,17 @@
 <?php
-class Rss extends Controller
+class Rss extends CI_Controller
 {
-
-    function Rss()
+    function __construct()
     {
-        parent::Controller();
+        parent::__construct();
         $this->load->helper('xml');
     }
 
     function index()
     {
         $data['encoding'] = 'utf-8';
-        $data['feed_name'] = 'codeigniter-kr.org';
-        $data['feed_url'] = 'http://www.codeigniter-kr.org';
+        $data['feed_name'] = 'cikorea.net';
+        $data['feed_url'] = 'http://www.cikorea.net';
         $data['page_description'] = 'CodeIgniter 한국사용자포럼 ';
         $data['page_language'] = 'ko-kr';
         $data['creator_email'] = 'Jongwon Byun is at codeigniterk at gmail dot com';

@@ -16,6 +16,18 @@ if(@$this->uri->segment(2) == 'view')
 <meta property="fb:admins" content="1635036611"/>
 <meta property="og:description" content="<?php echo mb_substr(strip_tags($views['contents']), 0, 150)?>"/>
 <!-- Facebook Interface -->
+<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shCore.js"></script>
+<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushCss.js"></script>
+<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushDiff.js"></script>
+<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushSql.js"></script>
+<link type="text/css" rel="stylesheet" href="<?php echo HIGH_DIR?>/styles/shCore.css"/>
+<link type="text/css" rel="stylesheet" href="<?php echo HIGH_DIR?>/styles/shThemeDefault.css"/>
+<script type="text/javascript">
+	SyntaxHighlighter.config.clipboardSwf = '<?php echo HIGH_DIR?>/scripts/clipboard.swf';
+	SyntaxHighlighter.all();
+</script>
 <?php
 }
 else
@@ -32,19 +44,6 @@ else
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" type="text/css" href="<?php echo CSS_DIR?>/default.css" media="screen"/>
 <link href="<?php echo CSS_DIR?>/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css" />
-
-<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shCore.js"></script>
-<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushCss.js"></script>
-<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushDiff.js"></script>
-<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushJScript.js"></script>
-<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushPhp.js"></script>
-<script type="text/javascript" src="<?php echo HIGH_DIR?>/scripts/shBrushSql.js"></script>
-<link type="text/css" rel="stylesheet" href="<?php echo HIGH_DIR?>/styles/shCore.css"/>
-<link type="text/css" rel="stylesheet" href="<?php echo HIGH_DIR?>/styles/shThemeDefault.css"/>
-<script type="text/javascript">
-	SyntaxHighlighter.config.clipboardSwf = '<?php echo HIGH_DIR?>/scripts/clipboard.swf';
-	SyntaxHighlighter.all();
-</script>
 
 <script type="text/javascript" src="<?php echo JS_DIR?>/common.js"></script>
 <script type="text/javascript" src="<?php echo JS_DIR?>/jquery-1.3.2.js"></script>

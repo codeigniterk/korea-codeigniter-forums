@@ -717,24 +717,6 @@ CREATE TABLE IF NOT EXISTS `tags` (
 
 -- --------------------------------------------------------
 
---
--- 테이블 구조 `trackbacks`
---
-
-CREATE TABLE IF NOT EXISTS `trackbacks` (
-  `tb_id` int(10) unsigned NOT NULL auto_increment,
-  `entry_id` int(10) unsigned NOT NULL default '0',
-  `url` varchar(200) NOT NULL,
-  `title` varchar(100) NOT NULL,
-  `excerpt` text NOT NULL,
-  `blog_name` varchar(100) NOT NULL,
-  `tb_date` int(10) NOT NULL,
-  `ip_address` varchar(16) NOT NULL,
-  PRIMARY KEY  (`tb_id`),
-  KEY `entry_id` (`entry_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='트랙백'  ;
-
--- --------------------------------------------------------
 
 --
 -- 테이블 구조 `users`

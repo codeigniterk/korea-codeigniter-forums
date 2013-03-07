@@ -2,9 +2,9 @@
 
 class Action extends CI_Controller {
 
-	function __constructu()
+	function __construct()
 	{
-		parent::__constructu();
+		parent::__construct();
 	}
 
 	function index()

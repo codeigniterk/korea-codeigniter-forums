@@ -178,21 +178,6 @@ class Board extends CI_Controller {
 			$this->load->view('board/'.MENU_SKIN.'/lists_v', $data);
 
 		}
-		else
-		{
-			if(!$this->session->userdata('userid'))
-			{
-				$rpath = str_replace("index.php/", "", $this->input->server('PHP_SELF'));
-				$data['rpath_encode'] = base64_encode($rpath);
-
-				$this->load->view('login_v',$data);
-			}
-			else
-			{
-				$data['perm'] = "게시물 리스트 보기";
-				$this->load->view('perm_v',$data);
-			}
-		}
 	}
 
 	function edit()
